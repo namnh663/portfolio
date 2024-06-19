@@ -24,6 +24,11 @@ const projects = [
     link: 'https://github.com/namnh663/mobile-nightwatch'
   },
   {
+    name: 'Sauce Labs',
+    description: 'Automated testing for web using Robot.',
+    link: 'https://github.com/namnh663/swaglabs-robot'
+  },
+  {
     name: 'Elfie',
     description: 'Automated testing for a mobile application using WebdriverIO.',
     link: 'https://github.com/namnh663/mobile-webdriverio'

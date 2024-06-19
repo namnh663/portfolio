@@ -3,23 +3,18 @@ import './Resources.css';
 
 const resources = [
   {
-    name: 'Automation Testing Guide',
-    description: 'A comprehensive guide to automation testing.',
+    name: 'Automation Testing Tools',
+    description: 'List of tools for automation testing.',
     link: '#'
   },
   {
-    name: 'Performance Testing Tools',
-    description: 'List of tools for performance testing.',
-    link: '#'
-  },
-  {
-    name: 'Manual Testing Checklist',
+    name: 'Mobile Testing Checklist',
     description: 'Checklist for manual testing.',
     link: '#'
   },
   {
-    name: 'API Testing with Postman',
-    description: 'Guide on API testing using Postman.',
+    name: 'API Testing Tools',
+    description: 'List of tools for API testing.',
     link: '#'
   },
 ];
