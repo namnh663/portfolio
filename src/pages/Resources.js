@@ -9,7 +9,7 @@ const resources = [
   },
   {
     name: 'Mobile Testing Checklist',
-    description: 'Checklist for manual testing.',
+    description: 'Checklist for mobile testing.',
     link: '#'
   },
   {
