@@ -1,4 +1,3 @@
-// src/pages/Resources.js
 import React from 'react';
 import './Resources.css';
 
@@ -28,14 +27,18 @@ const resources = [
 const Resources = () => {
   return (
     <div className="resources">
-      <h2>Shared Resources</h2>
+      <div className="header">
+        <h1>Shared Resources</h1>
+        <p>Here are some useful resources for software testing.</p>
+      </div>
       <div className="resources-grid">
         {resources.map((resource, index) => (
-          <div key={index} className="resource-item">
-            <h3>{resource.name}</h3>
-            <p>{resource.description}</p>
-            <a href={resource.link} target="_blank" rel="noopener noreferrer">Access Resource</a>
-          </div>
+          <a key={index} href={resource.link} target="_blank" rel="noopener noreferrer" className="resource-card">
+            <div className="card-content">
+              <h3>{resource.name}</h3>
+              <p>{resource.description}</p>
+            </div>
+          </a>
         ))}
       </div>
     </div>

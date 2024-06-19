@@ -1,56 +1,40 @@
-/* src/pages/Resources.css */
-.resources {
-  padding: 20px;
-  max-width: 1200px;
-  margin: 40px auto;
-  background-color: #f4f4f4;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.header {
-  text-align: center;
+/* src/components/Certificates.css */
+.certificates {
   margin-bottom: 40px;
 }
 
-.header h1 {
-  font-size: 36px;
+.certificates h2 {
+  font-size: 28px;
   color: #333;
+  margin-bottom: 20px;
 }
 
-.header p {
-  font-size: 18px;
-  color: #777;
-}
-
-.resources-grid {
+.certificates-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.resource-card {
+.certificate-card {
   background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
-  flex: 1 1 calc(25% - 20px);
+  flex: 1 1 calc(33% - 20px);
   min-width: 200px;
-  text-decoration: none;
-  color: inherit;
 }
 
-.resource-card:hover {
+.certificate-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .card-content h3 {
   margin: 0 0 10px;
-  font-size: 24px;
+  font-size: 20px;
   color: #007bff;
 }
 
@@ -60,7 +44,7 @@
 }
 
 @media (max-width: 768px) {
-  .resource-card {
+  .certificate-card {
     flex: 1 1 100%;
   }
 }

@@ -1,59 +1,66 @@
 /* src/pages/Projects.css */
 .projects {
   padding: 20px;
-  background-color: #fff;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   max-width: 1200px;
   margin: 40px auto;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.projects h2 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  color: #333;
+.header {
   text-align: center;
+  margin-bottom: 40px;
 }
 
-.projects-list {
+.header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.header p {
+  font-size: 18px;
+  color: #777;
+}
+
+.projects-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }
 
-.project-item {
-  background-color: #f9f9f9;
+.project-card {
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
-  flex: 1 1 calc(30% - 20px);
+  text-align: center;
+  flex: 1 1 calc(25% - 20px);
   min-width: 200px;
+  text-decoration: none;
+  color: inherit;
 }
 
-.project-item:hover {
+.project-card:hover {
   transform: translateY(-5px);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.project-item h3 {
-  margin: 0 0 10px 0;
-  font-size: 20px;
+.card-content h3 {
+  margin: 0 0 10px;
+  font-size: 24px;
   color: #007bff;
 }
 
-.project-item p {
-  margin: 0 0 15px 0;
-  color: #666;
+.card-content p {
+  font-size: 16px;
+  color: #555;
 }
 
-.project-item a {
-  color: #007bff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
-.project-item a:hover {
-  text-decoration: underline;
+@media (max-width: 768px) {
+  .project-card {
+    flex: 1 1 100%;
+  }
 }

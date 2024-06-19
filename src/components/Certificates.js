@@ -1,5 +1,6 @@
 // src/components/Certificates.js
 import React from 'react';
+import './Certificates.css';
 
 const certificates = [
   {
@@ -21,19 +22,21 @@ const certificates = [
 
 const Certificates = () => {
   return (
-    <div className="certificates section">
+    <div className="certificates">
       <h2>Certificates</h2>
-      <ul>
+      <div className="certificates-grid">
         {certificates.map((certificate, index) => (
-          <li key={index} className="certificate-item">
-            <h3>{certificate.name}</h3>
-            <p>{certificate.issuer}</p>
-            <p>{certificate.date}</p>
-          </li>
+          <div key={index} className="certificate-card">
+            <div className="card-content">
+              <h3>{certificate.name}</h3>
+              <p>{certificate.issuer}</p>
+              <p>{certificate.date}</p>
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
-}
+};
 
 export default Certificates;

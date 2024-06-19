@@ -1,0 +1,23 @@
+/* src/components/Notification.css */
+.notification {
+    background-color: #f39c12;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+    transform: translateY(0);
+    transition: transform 0.5s ease-out;
+  }
+  
+  .notification p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .notification.hidden {
+    transform: translateY(-100%);
+  }
+  

@@ -1,0 +1,29 @@
+/* src/components/Dashboard.css */
+.dashboard {
+  background-color: #f4f4f4;
+  padding: 40px 20px;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.header p {
+  font-size: 18px;
+  color: #777;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
