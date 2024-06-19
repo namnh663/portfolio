@@ -19,7 +19,7 @@ import './App.css';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <div className="app">
         <Navbar />
         <div className="content">
