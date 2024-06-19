@@ -23,6 +23,21 @@ const projects = [
     description: 'Automated testing for a mobile application using Nightwatch.',
     link: 'https://github.com/namnh663/mobile-nightwatch'
   },
+  {
+    name: 'Elfie',
+    description: 'Automated testing for a mobile application using WebdriverIO.',
+    link: 'https://github.com/namnh663/mobile-webdriverio'
+  },
+  {
+    name: 'VELA',
+    description: 'Automated testing for web using TestCafe.',
+    link: 'https://github.com/namnh663/vela-testcafe',
+  },
+  {
+    name: 'Amanotes',
+    description: 'API testing using Karate.',
+    link: 'https://github.com/namnh663/ama-karate',
+  },
 ];
 
 const Projects = () => {
@@ -30,7 +45,6 @@ const Projects = () => {
     <div className="projects">
       <div className="header">
         <h1>Projects</h1>
-        <p>Here are some of the projects I have worked on.</p>
       </div>
       <div className="projects-grid">
         {projects.map((project, index) => (
