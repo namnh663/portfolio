@@ -13,6 +13,7 @@ import PerformanceTesting from './pages/PerformanceTesting';
 import ManualTesting from './pages/ManualTesting';
 import APITesting from './pages/APITesting';
 import Resources from './pages/Resources';
+import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import './App.css';
@@ -36,6 +37,7 @@ const App = () => {
             <Route path="/knowledge/manual-testing" element={<ManualTesting />} />
             <Route path="/knowledge/api-testing" element={<APITesting />} />
             <Route path="/resources" element={<Resources />} />
+            <Route path="*" element={<NotFound />} /> {/* Add this line for 404 */}
           </Routes>
         </div>
         <Footer />

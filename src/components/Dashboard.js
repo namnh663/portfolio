@@ -7,7 +7,7 @@ import Certificates from './Certificates';
 const Dashboard = () => {
   return (
     <div className="dashboard container">
-      <h1>QA Test Lead Portfolio</h1>
+      <h1>Nam Nguyen Hoai</h1>
       <AboutMe />
       <Skills />
       <Certificates />
