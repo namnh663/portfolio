@@ -1,0 +1,56 @@
+/* src/components/ProgrammingLanguagesAndTechnologies.css */
+.programming-languages-and-technologies {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .programming-languages-and-technologies h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .programming-languages-and-technologies .content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .programming-languages-and-technologies .languages,
+  .programming-languages-and-technologies .technologies {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .programming-languages-and-technologies h3 {
+    font-size: 22px;
+    color: #007bff;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .programming-languages-and-technologies .badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  .programming-languages-and-technologies .badge {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .programming-languages-and-technologies .badge:hover {
+    background-color: #0056b3;
+  }
+  
