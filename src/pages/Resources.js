@@ -3,37 +3,53 @@ import './Resources.css';
 
 const resources = [
   {
-    name: 'Automation Testing Tools',
-    description: 'List of tools for automation testing.',
-    link: '#'
+    title: 'React Documentation',
+    description: 'Comprehensive guide and reference for React.',
+    link: 'https://reactjs.org/docs/getting-started.html'
   },
   {
-    name: 'Mobile Testing Checklist',
-    description: 'Checklist for mobile testing.',
-    link: '#'
+    title: 'MDN Web Docs',
+    description: 'Resources for developers, by developers.',
+    link: 'https://developer.mozilla.org/en-US/'
   },
   {
-    name: 'API Testing Tools',
-    description: 'List of tools for API testing.',
-    link: '#'
+    title: 'CSS Tricks',
+    description: 'Tips, tricks, and techniques on using CSS.',
+    link: 'https://css-tricks.com/'
   },
+  {
+    title: 'JSON Crack',
+    description: 'Visualize your JSON data in a crack format.',
+    link: 'https://jsoncrack.com/'
+  },
+  {
+    title: 'Cobbl',
+    description: 'Collaborate, build, and launch APIs faster.',
+    link: 'https://cobbl.io/'
+  },
+  {
+    title: 'Mobile Testing Checklist',
+    description: 'Comprehensive checklist for Mobile Testing.',
+    link: 'https://docs.google.com/spreadsheets/d/1YwL6Gc3uExZC4tf6sux6fL6Wft5RlLPgesJbKjb3DjU/edit?usp=sharing'
+  },
+  {
+    title: 'Test Strategy Template',
+    description: 'Sample Test Strategy for Mobile Application.',
+    link: 'https://docs.google.com/document/d/1ejZL_045JMcN0AMf2fe06BFUQfpUCxiwz5QKFivjkQ0/edit?usp=sharing'
+  }
 ];
 
 const Resources = () => {
   return (
-    <div className="resources">
-      <div className="header">
-        <h1>Shared Resources</h1>
-        <p>Here are some useful resources for software testing.</p>
-      </div>
+    <div className="resources-page">
+      <h1>Resources</h1>
       <div className="resources-grid">
         {resources.map((resource, index) => (
-          <a key={index} href={resource.link} target="_blank" rel="noopener noreferrer" className="resource-card">
-            <div className="card-content">
-              <h3>{resource.name}</h3>
-              <p>{resource.description}</p>
-            </div>
-          </a>
+          <div className="resource-card" key={index}>
+            <h3>{resource.title}</h3>
+            <p>{resource.description}</p>
+            <a href={resource.link} target="_blank" rel="noopener noreferrer">Learn More</a>
+          </div>
         ))}
       </div>
     </div>

@@ -22,6 +22,7 @@ import Terminology from './components/topics/Terminology';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import SdlcTesting from './components/topics/SdlcTesting';
 import './App.css';
 
 const App = () => {
@@ -40,6 +41,7 @@ const App = () => {
               <Route path="terminology" element={<Terminology />} />
               <Route path="definition" element={<Definition />} />
               <Route path="principles" element={<Principles />} />
+              <Route path="sdlc-testing" element={<SdlcTesting />} />
               <Route path="types" element={<Types />} />
               <Route path="levels" element={<Levels />} />
               <Route path="methods" element={<Methods />} />

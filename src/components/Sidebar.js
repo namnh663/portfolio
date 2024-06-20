@@ -10,6 +10,7 @@ const Sidebar = () => {
         <li><NavLink to="/knowledge/terminology" activeClassName="active">Terminology</NavLink></li>
         <li><NavLink to="/knowledge/definition" activeClassName="active">Definition and Purpose</NavLink></li>
         <li><NavLink to="/knowledge/principles" activeClassName="active">Testing Principles</NavLink></li>
+        <li><NavLink to="/knowledge/sdlc-testing" activeClassName="active">SDLC Testing</NavLink></li>
         <li><NavLink to="/knowledge/types" activeClassName="active">Types of Testing</NavLink></li>
         <li><NavLink to="/knowledge/levels" activeClassName="active">Levels of Testing</NavLink></li>
         <li><NavLink to="/knowledge/methods" activeClassName="active">Testing Methods</NavLink></li>
