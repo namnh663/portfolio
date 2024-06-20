@@ -4,7 +4,8 @@ import './ProgrammingLanguagesAndTechnologies.css';
 const ProgrammingLanguagesAndTechnologies = () => {
   const languages = ['JavaScript', 'TypeScript', 'Java', 'Python', 'C#'];
   const technologies = [
-    'React', 'Node.js','Docker', 'Grafana', 'K6', 'AWS', 'Jira', 'Azure', 'Git', 'GitLab', 'Bitbucket', 'CI/CD'
+    'React', 'Node.js', 'Docker', 'Grafana', 'K6', 'AWS', 'Amazon S3', 'Jira', 'Azure', 'Git', 'GitLab', 'Bitbucket', 'CI/CD',
+    'Xray', 'Testmo', 'Qase', 'Karate', 'TestCafe', 'Playwright', 'WebdriverIO', 'Robot'
   ];
 
   return (

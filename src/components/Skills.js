@@ -2,9 +2,7 @@ import React from 'react';
 import './Skills.css';
 
 const skills = [
-  'Xray', 'Testmo', 'Qase', 'Karate', 'TestCafe', 'Playwright',
-  'WebdriverIO', 'Robot', 'Continuous Testing',
-  'Amazon S3', 'Custom Frameworks', 'Automation Strategy', 'SDLC',
+  'Continuous Testing', 'Custom Frameworks', 'Automation Strategy', 'SDLC',
   'STLC', 'Test Case Design', 'Test Case Management', 'Testing Tools', 'Test Plan',
   'Testing Techniques', 'Functional Testing', 'Non-Functional Testing', 'Regression Testing',
   'Mobile Testing', 'iOS', 'Android', 'Integration Testing', 'Usability Testing',
