@@ -29,6 +29,7 @@ const App = () => {
   return (
     <Router basename="/portfolio">
       <div className="app">
+        <Notification />
         <Navbar />
         <div className="content">
           <Routes>
