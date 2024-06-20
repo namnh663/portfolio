@@ -1,70 +1,213 @@
-# Getting Started with Create React App
+# QA Test Lead Portfolio Documentation
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Technologies Used](#technologies-used)
+3. [Project Structure](#project-structure)
+4. [Components](#components)
+    - [Navbar](#navbar)
+    - [Footer](#footer)
+    - [Notification](#notification)
+    - [Dashboard](#dashboard)
+    - [AboutMe](#aboutme)
+    - [Skills](#skills)
+    - [Certificates](#certificates)
+    - [TeamManagementStyle](#teammanagementstyle)
+    - [ProgrammingLanguagesAndTechnologies](#programminglanguagesandtechnologies)
+5. [Pages](#pages)
+    - [Home](#home)
+    - [Experience](#experience)
+    - [Projects](#projects)
+    - [Contact](#contact)
+    - [Knowledge](#knowledge)
+    - [Resources](#resources)
+    - [NotFound](#notfound)
+6. [Deployment](#deployment)
+7. [Contact](#contact)
 
-## Available Scripts
+## Introduction
+The "Nam's Portfolio" is a React-based web application that showcases the skills, experience, and projects of a QA Role. The application includes various sections such as About Me, Skills, Certificates, Team Management Style, and Programming Languages & Technologies. It also features a notification system and a responsive design.
 
-In the project directory, you can run:
+## Technologies Used
+This application is built using the following technologies:
 
-### `npm start`
+- **React**: A JavaScript library for building user interfaces.
+- **React Router**: A library for routing in React applications.
+- **Bootstrap**: A CSS framework for responsive design and styling.
+- **Font Awesome**: A library for scalable vector icons.
+- **EmailJS**: A service to send emails directly from the client-side.
+- **gh-pages**: A package for deploying applications to GitHub Pages.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These technologies were chosen to ensure a robust, scalable, and maintainable application that provides a seamless user experience across different devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Project Structure
+The project structure is organized as follows:
 
-### `npm test`
+```
+qa-test-lead-portfolio/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── components/
+│   │   ├── AboutMe.js
+│   │   ├── AboutMe.css
+│   │   ├── Certificates.js
+│   │   ├── Certificates.css
+│   │   ├── Dashboard.js
+│   │   ├── Dashboard.css
+│   │   ├── Footer.js
+│   │   ├── Footer.css
+│   │   ├── Navbar.js
+│   │   ├── Navbar.css
+│   │   ├── Notification.js
+│   │   ├── Notification.css
+│   │   ├── ProgrammingLanguagesAndTechnologies.js
+│   │   ├── ProgrammingLanguagesAndTechnologies.css
+│   │   ├── Skills.js
+│   │   ├── Skills.css
+│   │   ├── TeamManagementStyle.js
+│   │   ├── TeamManagementStyle.css
+│   │   └── ...
+│   ├── pages/
+│   │   ├── Contact.js
+│   │   ├── Contact.css
+│   │   ├── Experience.js
+│   │   ├── Experience.css
+│   │   ├── Home.js
+│   │   ├── Knowledge.js
+│   │   ├── Knowledge.css
+│   │   ├── NotFound.js
+│   │   ├── Projects.js
+│   │   ├── Projects.css
+│   │   ├── Resources.js
+│   │   ├── Resources.css
+│   │   └── ...
+│   ├── App.js
+│   ├── App.css
+│   └── index.js
+├── package.json
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+### Navbar
+The `Navbar` component provides the navigation bar at the top of the page.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**File:** `src/components/Navbar.js`  
+**Styles:** `src/components/Navbar.css`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Footer
+The `Footer` component provides the footer section at the bottom of the page.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**File:** `src/components/Footer.js`  
+**Styles:** `src/components/Footer.css`
 
-### `npm run eject`
+### Notification
+The `Notification` component displays a notification banner at the top of the page.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**File:** `src/components/Notification.js`  
+**Styles:** `src/components/Notification.css`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Dashboard
+The `Dashboard` component is the main component that includes sections like About Me, Skills, Certificates, Team Management Style, and Programming Languages & Technologies.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**File:** `src/components/Dashboard.js`  
+**Styles:** `src/components/Dashboard.css`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### AboutMe
+The `AboutMe` component displays information about the QA Role.
 
-## Learn More
+**File:** `src/components/AboutMe.js`  
+**Styles:** `src/components/AboutMe.css`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Skills
+The `Skills` component displays a list of skills as badges.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**File:** `src/components/Skills.js`  
+**Styles:** `src/components/Skills.css`
 
-### Code Splitting
+### Certificates
+The `Certificates` component displays a list of certificates in a card format.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**File:** `src/components/Certificates.js`  
+**Styles:** `src/components/Certificates.css`
 
-### Analyzing the Bundle Size
+### TeamManagementStyle
+The `TeamManagementStyle` component describes the team management style of the QA Test Lead.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**File:** `src/components/TeamManagementStyle.js`  
+**Styles:** `src/components/TeamManagementStyle.css`
 
-### Making a Progressive Web App
+### ProgrammingLanguagesAndTechnologies
+The `ProgrammingLanguagesAndTechnologies` component lists the programming languages and technologies used by the QA Role.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**File:** `src/components/ProgrammingLanguagesAndTechnologies.js`  
+**Styles:** `src/components/ProgrammingLanguagesAndTechnologies.css`
 
-### Advanced Configuration
+## Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Home
+The `Home` page displays the main dashboard.
 
-### Deployment
+**File:** `src/pages/Home.js`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Experience
+The `Experience` page lists the professional experiences of the QA Test Lead.
 
-### `npm run build` fails to minify
+**File:** `src/pages/Experience.js`  
+**Styles:** `src/pages/Experience.css`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Projects
+The `Projects` page showcases the projects worked on by the QA Role.
+
+**File:** `src/pages/Projects.js`  
+**Styles:** `src/pages/Projects.css`
+
+### Contact
+The `Contact` page provides a form to contact the QA Role.
+
+**File:** `src/pages/Contact.js`  
+**Styles:** `src/pages/Contact.css`
+
+### Knowledge
+The `Knowledge` page contains information about various knowledge topics.
+
+**File:** `src/pages/Knowledge.js`  
+**Styles:** `src/pages/Knowledge.css`
+
+### Resources
+The `Resources` page lists useful resources related to QA testing.
+
+**File:** `src/pages/Resources.js`  
+**Styles:** `src/pages/Resources.css`
+
+### NotFound
+The `NotFound` page displays a 404 error message for undefined routes.
+
+**File:** `src/pages/NotFound.js`
+
+## Deployment
+To deploy the application to GitHub Pages, follow these steps:
+
+1. **Install the gh-pages package:**
+   ```sh
+   npm install --save gh-pages
+   ```
+
+2. **Add the following scripts to your `package.json` file:**
+   ```json
+   "scripts": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d build"
+   }
+   ```
+
+3. **Deploy the application:**
+   ```sh
+   npm run deploy
+   ```
+
+## Contact
+For any questions or feedback, please contact me at [namnh663@gmail.com](mailto:namnh663@gmail.com).
