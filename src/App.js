@@ -23,6 +23,7 @@ import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
+import Notification from './components/Notification';
 import './App.css';
 
 const App = () => {
