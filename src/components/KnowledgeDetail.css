@@ -1,0 +1,33 @@
+/* src/components/KnowledgeDetail.css */
+.knowledge-detail {
+    margin-left: 270px; /* To account for the sidebar width */
+    padding: 20px;
+  }
+  
+  .knowledge-detail h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .knowledge-detail h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .knowledge-detail p, .knowledge-detail ul, .knowledge-detail ol {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .knowledge-detail ul, .knowledge-detail ol {
+    padding-left: 20px;
+  }
+  
+  .knowledge-detail li {
+    margin-bottom: 5px;
+  }
+  

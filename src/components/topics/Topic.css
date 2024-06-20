@@ -1,0 +1,69 @@
+/* src/components/topics/Topic.css */
+.topic-detail {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.topic-detail h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 10px;
+}
+
+.topic-detail h3 {
+  font-size: 20px;
+  color: #007bff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.topic-detail p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.topic-detail ul,
+.topic-detail ol {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  padding-left: 20px;
+  list-style-type: none;
+}
+
+.topic-detail ul li::before {
+  content: '•';
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.topic-detail ol li {
+  counter-increment: item;
+  margin-bottom: 10px;
+}
+
+.topic-detail ol li::before {
+  content: counter(item) '.';
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-weight: bold;
+}
+
+.topic-detail li {
+  margin-bottom: 10px;
+}
+
+.topic-detail section {
+  margin-bottom: 20px;
+}

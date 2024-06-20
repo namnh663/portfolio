@@ -1,46 +1,18 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import Sidebar from '../components/Sidebar';
+import { Outlet } from 'react-router-dom';
 import './Knowledge.css';
-
-const knowledgeTopics = [
-  {
-    name: 'Automation Testing',
-    path: '/knowledge/automation-testing',
-    description: 'Learn the basics of automation testing.',
-  },
-  {
-    name: 'Performance Testing',
-    path: '/knowledge/performance-testing',
-    description: 'Understand how to test the performance of applications.',
-  },
-  {
-    name: 'Manual Testing',
-    path: '/knowledge/manual-testing',
-    description: 'Get started with manual testing techniques.',
-  },
-  {
-    name: 'API Testing',
-    path: '/knowledge/api-testing',
-    description: 'Explore API testing methods and tools.',
-  },
-];
 
 const Knowledge = () => {
   return (
-    <div className="knowledge">
-      <div className="header">
-        <h1>Knowledge Topics</h1>
-        <p>Explore various topics related to software testing.</p>
-      </div>
-      <div className="topics-grid">
-        {knowledgeTopics.map((topic, index) => (
-          <Link key={index} to={topic.path} className="topic-card">
-            <div className="card-content">
-              <h3>{topic.name}</h3>
-              <p>{topic.description}</p>
-            </div>
-          </Link>
-        ))}
+    <div className="knowledge-page">
+      <Sidebar />
+      <div className="knowledge-content">
+        <div className="knowledge-intro">
+          <h2>Welcome to the Knowledge Base</h2>
+          <p>Explore various topics related to software testing. Each topic provides detailed information, definitions, methods, and best practices to help you understand and implement effective testing strategies.</p>
+        </div>
+        <Outlet />
       </div>
     </div>
   );

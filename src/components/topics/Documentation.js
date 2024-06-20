@@ -1,0 +1,18 @@
+import React from 'react';
+import './Topic.css';
+
+const Documentation = () => {
+  return (
+    <div className="topic-detail">
+      <h2>Test Documentation</h2>
+      <ul>
+        <li><strong>Test Plan</strong>: Document outlining the objectives, scope, and focus of a testing effort.</li>
+        <li><strong>Test Cases</strong>: Detailed steps for testing specific functionality.</li>
+        <li><strong>Test Scripts</strong>: Scripts used in automated testing.</li>
+        <li><strong>Test Report</strong>: Summarizes the testing activities and results.</li>
+      </ul>
+    </div>
+  );
+};
+
+export default Documentation;
