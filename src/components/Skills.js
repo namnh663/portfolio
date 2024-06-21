@@ -1,5 +1,4 @@
 import React from 'react';
-import './Skills.css';
 
 const skills = [
   'Continuous Testing', 'Custom Frameworks', 'Automation Strategy', 'SDLC',
