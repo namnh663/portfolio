@@ -13,11 +13,11 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="skills">
+    <div className="skills-section">
       <h2>Skills</h2>
-      <div className="skills-list">
+      <div className="skills-container">
         {skills.map((skill, index) => (
-          <span key={index} className="skill-badge">{skill}</span>
+          <span key={index} className="skill-tag">{skill}</span>
         ))}
       </div>
     </div>
