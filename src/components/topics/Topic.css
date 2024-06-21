@@ -43,8 +43,8 @@
 .topic-detail .important {
   font-size: 18px;
   font-weight: bold;
-  color: #d9534f;
-  background-color: #f9ecec;
+  color: #d9534f; 
+  background-color: #f9ecec; 
   padding: 10px;
   border-left: 5px solid #d9534f;
   margin-top: 20px;

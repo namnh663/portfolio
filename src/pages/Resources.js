@@ -42,7 +42,6 @@ const resources = [
 const Resources = () => {
   return (
     <div className="resources-page">
-      <h1>Resources</h1>
       <div className="resources-grid">
         {resources.map((resource, index) => (
           <div className="resource-card" key={index}>

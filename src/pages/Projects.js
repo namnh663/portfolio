@@ -48,9 +48,6 @@ const projects = [
 const Projects = () => {
   return (
     <div className="projects">
-      <div className="header">
-        <h1>Projects</h1>
-      </div>
       <div className="projects-grid">
         {projects.map((project, index) => (
           <a key={index} href={project.link} target="_blank" rel="noopener noreferrer" className="project-card">
