@@ -4,7 +4,7 @@ import './Resources.css';
 const resources = [
   {
     title: 'React Documentation',
-    description: 'Comprehensive guide and reference for React.',
+    description: 'Comprehensive guide & reference.',
     link: 'https://reactjs.org/docs/getting-started.html'
   },
   {
@@ -16,6 +16,11 @@ const resources = [
     title: 'CSS Tricks',
     description: 'Tips, tricks, and techniques on using CSS.',
     link: 'https://css-tricks.com/'
+  },
+  {
+    title: 'CSS Button Generator',
+    description: 'Create custom CSS buttons with ease.',
+    link: 'https://devsdash.com/tools/css-button-generator'
   },
   {
     title: 'JSON Crack',
@@ -34,8 +39,13 @@ const resources = [
   },
   {
     title: 'Test Strategy Template',
-    description: 'Sample Test Strategy for Mobile Application.',
+    description: 'Sample Test Strategy for Mobile App.',
     link: 'https://docs.google.com/document/d/1ejZL_045JMcN0AMf2fe06BFUQfpUCxiwz5QKFivjkQ0/edit?usp=sharing'
+  },
+  {
+    title: 'Test Case Template',
+    description: 'Sample Test Case for Website.',
+    link: 'https://docs.google.com/spreadsheets/d/1HE1bMMztXkqoShD0vNOh_FE6va96WYkIiDsquOLHhCY/edit?usp=sharing'
   }
 ];
 

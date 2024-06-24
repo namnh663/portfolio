@@ -18,6 +18,12 @@ const Navbar = () => {
             <li className="dropdown-item">
               <Link to="/testing-foundation">Testing Foundation</Link>
             </li>
+            <li className="dropdown-item">
+              <Link to="/manual-testing">Manual Testing</Link>
+            </li>
+            <li className="dropdown-item">
+              <Link to="/automated-testing">Automated Testing</Link>
+            </li>
           </ul>
         </li>
         <li className="navbar-item">

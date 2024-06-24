@@ -45,3 +45,41 @@
 .skill-tag:hover {
     background-color: #0056b3;
 }
+
+.working-style {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.working-style h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+.working-style p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.working-style ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.working-style ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+.working-style ul li strong {
+    color: #007bff;
+}

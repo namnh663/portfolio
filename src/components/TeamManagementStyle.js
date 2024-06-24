@@ -1,9 +1,8 @@
 import React from 'react';
-import './TeamManagementStyle.css';
 
 const TeamManagementStyle = () => {
   return (
-    <div className="team-management-style">
+    <div className="working-style">
       <h2>Team Management Style</h2>
       <p>
         As a QA Test Lead, I emphasize collaboration, clear communication, and continuous improvement. My management style includes:

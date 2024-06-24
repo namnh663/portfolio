@@ -6,16 +6,19 @@ const AboutMe = () => {
     <div className="about-me section">
       <h2>About Me</h2>
       <p>
-        As a dedicated Senior QA Engineer with nearly six years of experience in the software testing field, I have cultivated a deep understanding and expertise in both manual and automated testing. My journey in this industry began during my sophomore year of college, which sparked a passion that has grown ever since. Starting as a manual tester, I quickly leveraged my background in software engineering to excel in automated testing as well.
+        With over six years of experience as a Senior Test Engineer in the finance, banking, and logistics industries, I have honed my skills in delivering precise, timely, and effective testing solutions. My journey through various roles has not only allowed me to meet expectations but often surpass them, earning a reputation for meticulous attention to detail and unwavering commitment to deadlines.
       </p>
       <p>
-        Throughout my career, which has been primarily focused on product development companies, I have developed a comprehensive understanding of the entire product lifecycle, especially in sectors like finance, banking, and logistics. I take great pride in my ability to work meticulously and responsibly, ensuring all tasks are completed on time and with attention to detail. This trait has consistently earned me commendation from my direct managers.
+        One of the aspects I enjoy most about my work is tackling challenging tasks. Each time I overcome a difficult problem, I gain invaluable lessons that enhance my professional growth. This passion for challenges drives me to continuously improve and innovate in my field.
       </p>
       <p>
-        My commitment to excellence is not just about fulfilling my roles but also enhancing team capabilities. I habitually document detailed notes and compile them into training materials that become essential resources for onboarding new team members. This methodical approach to knowledge sharing has proven invaluable in maintaining high standards within my teams.
+        In my career, I have had the privilege of leading talented teams, developing thorough documentation, and conducting engaging training sessions. My dedication to these areas has been recognized with accolades, including the prestigious DNA Star Award at Home Credit.
       </p>
       <p>
-        My efforts have not only been recognized in terms of accolades, such as the DNA Star Award at Home Credit, but have also led to significant contributions like successfully building and deploying automated test systems for companies like Amanotes, ITL, and Live Payments. These achievements underscore my value in an organization and my philosophy that while personal life can be flexible with emotions, professional endeavors should always be approached with a rational and analytical mindset.
+        I have also been instrumental in building robust testing processes and actively contributing ideas in meetings. My proactive approach ensures that we are always seeking ways to incorporate automation into our workflows, optimizing the time and efficiency of our operations. One of my proudest achievements has been the successful implementation of automated testing frameworks for companies like Amanotes, ITL, and Live Payments. These projects have not only streamlined processes but also significantly enhanced the overall quality and reliability of the software.
+      </p>
+      <p>
+        Being a responsible and proactive professional, I thrive in dynamic environments where attention to detail and effective communication are key. I am excited about the opportunity to bring my expertise, passion for quality assurance, and innovative mindset to new and exciting projects.
       </p>
     </div>
   );
