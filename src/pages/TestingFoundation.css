@@ -1,5 +1,5 @@
-/* src/pages/Knowledge.css */
-.knowledge-page {
+/* src/pages/TestingFoundation.css */
+.foundation-page {
   display: flex;
   background-color: #f9f9f9;
 }
@@ -40,7 +40,7 @@
   color: #0056b3;
 }
 
-.knowledge-content {
+.foundation-content {
   flex: 1;
   background-color: #ffffff;
   padding: 20px;
@@ -48,17 +48,17 @@
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.knowledge-intro {
+.foundation-intro {
   margin-bottom: 20px;
 }
 
-.knowledge-intro h2 {
+.foundation-intro h2 {
   font-size: 28px;
   color: #333;
   margin-bottom: 10px;
 }
 
-.knowledge-intro p {
+.foundation-intro p {
   font-size: 16px;
   color: #555;
   line-height: 1.6;

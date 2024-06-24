@@ -1,51 +1,89 @@
 /* src/components/Navbar.css */
 .navbar {
-  background-color: #000 !important;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
 }
 
-.navbar .navbar-brand {
+.navbar-brand a {
+  color: #fff;
+  text-decoration: none;
   font-size: 24px;
   font-weight: bold;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.navbar-item a, .navbar-item span {
   color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
 }
 
-.navbar .navbar-brand:hover {
-  color: #ccc;
+.navbar-item a:hover, .navbar-item span:hover {
+  background-color: #575757;
 }
 
-.navbar .nav-link {
-  font-size: 16px;
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu .dropdown-item a {
+  padding: 10px 20px;
   color: #fff;
-  transition: color 0.3s ease;
+  text-decoration: none;
+  display: block;
 }
 
-.navbar .nav-link:hover {
-  color: #007bff;
+.dropdown-menu .dropdown-item a:hover {
+  background-color: #575757;
 }
 
-.navbar .navbar-toggler {
-  border: none;
+.navbar-item:hover .dropdown-menu {
+  display: block;
 }
 
-.navbar .navbar-toggler:focus {
-  outline: none;
+.navbar-item:hover .dropdown-menu .dropdown-item a {
+  background-color: #333;
 }
 
-.navbar-dark .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+.dropdown-menu {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
 }
 
-@media (max-width: 992px) {
-  .navbar .navbar-collapse {
-    background-color: #000;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-    margin-top: 10px;
-    padding: 10px;
-  }
+.dropdown-menu .dropdown-item {
+  background-color: #333;
+  border-bottom: 1px solid #444;
+}
 
-  .navbar .nav-link {
-    color: #fff;
-  }
+.dropdown-menu .dropdown-item a {
+  padding: 10px;
+}
+
+.dropdown-menu .dropdown-item a:hover {
+  background-color: #575757;
 }

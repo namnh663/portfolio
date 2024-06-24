@@ -4,34 +4,34 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark">
-      <div className="container-fluid">
-        <Link className="navbar-brand" to="/">Nam's Portfolio</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav ms-auto">
-            <li className="nav-item">
-              <Link className="nav-link" to="/">Home</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/experience">Experience</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/projects">Projects</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/knowledge">Knowledge</Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/resources">Resources</Link>
+    <nav className="navbar">
+      <div className="navbar-brand">
+        <Link to="/">Nam's Portfolio</Link>
+      </div>
+      <ul className="navbar-menu">
+        <li className="navbar-item">
+          <Link to="/">Home</Link>
+        </li>
+        <li className="navbar-item dropdown">
+          <span>Knowledge</span>
+          <ul className="dropdown-menu">
+            <li className="dropdown-item">
+              <Link to="/testing-foundation">Testing Foundation</Link>
             </li>
           </ul>
-        </div>
-      </div>
+        </li>
+        <li className="navbar-item">
+          <Link to="/experience">Experience</Link>
+        </li>
+        <li className="navbar-item">
+          <Link to="/projects">Projects</Link>
+        </li>
+        <li className="navbar-item">
+          <Link to="/resources">Resources</Link>
+        </li>
+      </ul>
     </nav>
   );
-}
+};
 
 export default Navbar;

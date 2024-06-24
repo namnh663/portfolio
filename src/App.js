@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
-import Knowledge from './pages/Knowledge';
+import TestingFoundation from './pages/TestingFoundation';
 import Resources from './pages/Resources';
 import Principles from './components/topics/Principles';
 import Definition from './components/topics/Definition';
@@ -37,7 +37,7 @@ const App = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resources" element={<Resources />}></Route>
-            <Route path="/knowledge" element={<Knowledge />}>
+            <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
               <Route path="definition" element={<Definition />} />
               <Route path="principles" element={<Principles />} />
