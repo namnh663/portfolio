@@ -22,6 +22,7 @@ import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
+import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import Notification from './components/Notification';
 import './App.css';
 
@@ -42,6 +43,7 @@ const App = () => {
               <Route path="definition" element={<Definition />} />
               <Route path="principles" element={<Principles />} />
               <Route path="sdlc-testing" element={<SdlcTesting />} />
+              <Route path="development-approaches" element={<DevelopmentApproaches />} />
               <Route path="types" element={<Types />} />
               <Route path="levels" element={<Levels />} />
               <Route path="methods" element={<Methods />} />

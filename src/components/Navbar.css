@@ -5,13 +5,13 @@
   align-items: center;
   background-color: #333;
   padding: 10px 20px;
+  font-family: Arial, sans-serif;
 }
 
 .navbar-brand a {
   color: #fff;
   text-decoration: none;
   font-size: 24px;
-  font-weight: bold;
 }
 
 .navbar-menu {
@@ -33,7 +33,9 @@
 }
 
 .navbar-item a:hover, .navbar-item span:hover {
-  background-color: #575757;
+  background-color: #444;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-menu {
@@ -45,34 +47,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
-  min-width: 200px;
+  min-width: 150px;
   border-radius: 4px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
-.dropdown-menu .dropdown-item a {
-  padding: 10px 20px;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-menu .dropdown-item a:hover {
-  background-color: #575757;
-}
-
-.navbar-item:hover .dropdown-menu {
-  display: block;
-}
-
-.navbar-item:hover .dropdown-menu .dropdown-item a {
-  background-color: #333;
-}
-
-.dropdown-menu {
-  padding: 0;
-  background-color: transparent;
-  box-shadow: none;
 }
 
 .dropdown-menu .dropdown-item {
@@ -81,9 +58,62 @@
 }
 
 .dropdown-menu .dropdown-item a {
-  padding: 10px;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
 }
 
 .dropdown-menu .dropdown-item a:hover {
-  background-color: #575757;
+  background-color: #555;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-item:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  padding: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .navbar-brand a {
+    font-size: 20px;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-item {
+    width: 100%;
+  }
+
+  .navbar-item a, .navbar-item span {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .dropdown-menu {
+    position: static;
+    box-shadow: none;
+    border-radius: 0;
+    background-color: #444;
+  }
+
+  .dropdown-menu .dropdown-item a {
+    padding: 10px;
+  }
 }

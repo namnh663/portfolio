@@ -1,10 +1,19 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css';
+
+const relatedArticles = [
+  {
+    title: 'Testing in Various Development Approaches',
+    link: '/testing-foundation/development-approaches'
+  }
+];
 
 const SdlcTesting = () => {
   return (
     <div className="topic-detail">
       <h2>Testing throughout the Software Development Lifecycle (SDLC)</h2>
+      <p>Testing throughout the Software Development Lifecycle (SDLC) ensures that quality is built into the product from the very beginning and maintained throughout. Here's a breakdown of how testing is integrated at each stage of the SDLC:</p>
       
       <section>
         <h3>1. Requirement Analysis</h3>
@@ -78,6 +87,17 @@ const SdlcTesting = () => {
         <li><strong>Collaboration and Communication</strong>: Foster strong communication and collaboration between testers, developers, and other stakeholders to ensure alignment and address issues promptly.</li>
       </ul>
       <p className="important">Integrating testing throughout the SDLC helps ensure that defects are caught early, reducing the cost and effort required to fix them, and ultimately leads to a higher-quality software product.</p>
+
+      <section className="related-articles">
+        <h3>Related Articles</h3>
+        <ul>
+          {relatedArticles.map((article, index) => (
+            <li key={index}>
+              <Link to={article.link}>{article.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };

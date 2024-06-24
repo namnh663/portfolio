@@ -1,12 +1,11 @@
-/* src/components/topics/Topic.css */
-.topic-detail {
+.article-detail {
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.topic-detail h2 {
+.article-detail h2 {
   font-size: 24px;
   color: #333;
   margin-bottom: 20px;
@@ -14,33 +13,33 @@
   padding-bottom: 10px;
 }
 
-.topic-detail h3 {
+.article-detail h3 {
   font-size: 20px;
   color: #007bff;
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
-.topic-detail p, .topic-detail ul, .topic-detail ol {
+.article-detail p, .article-detail ul, .article-detail ol {
   font-size: 16px;
   color: #555;
   margin-bottom: 10px;
   line-height: 1.6;
 }
 
-.topic-detail ul, .topic-detail ol {
+.article-detail ul, .article-detail ol {
   padding-left: 20px;
 }
 
-.topic-detail li {
+.article-detail li {
   margin-bottom: 10px;
 }
 
-.topic-detail section {
+.article-detail section {
   margin-bottom: 20px;
 }
 
-.topic-detail .important {
+.article-detail .important {
   font-size: 18px;
   font-weight: bold;
   color: #d9534f;
