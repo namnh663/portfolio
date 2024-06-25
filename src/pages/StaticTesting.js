@@ -1,16 +1,16 @@
 import React from 'react';
-import TestingFoundationTopics from '../components/TestingFoundationTopics';
+import StaticTestingTopics from '../components/StaticTestingTopics';
 import { Outlet } from 'react-router-dom';
 import './TestingFoundation.css';
 
-const TestingFoundation = () => {
+const StaticTesting = () => {
   return (
     <div className="foundation-page">
-      <TestingFoundationTopics />
+      <StaticTestingTopics />
       <div className="foundation-content">
         <div className="foundation-intro">
-          <h2>Testing Foundation</h2>
-          <p>This page contains information about the foundations of testing.</p>
+          <h2>Static Testing</h2>
+          <p>This page contains information about the static testing.</p>
         </div>
         <Outlet />
       </div>
@@ -18,4 +18,4 @@ const TestingFoundation = () => {
   );
 };
 
-export default TestingFoundation;
+export default StaticTesting;

@@ -4,6 +4,9 @@ import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import TestingFoundation from './pages/TestingFoundation';
+import StaticTesting from './pages/StaticTesting';
+import StaticTestingTypes from './components/topics/StaticTestingTypes';
+import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
 import Resources from './pages/Resources';
 import Principles from './components/topics/Principles';
 import Definition from './components/topics/Definition';
@@ -38,6 +41,10 @@ const App = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resources" element={<Resources />}></Route>
+            <Route path="/static-testing" element={<StaticTesting />}>
+              <Route path="type" element={<StaticTestingTypes />} />
+              <Route path="benefits" element={<StaticTestingBenefits />} />
+            </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
               <Route path="definition" element={<Definition />} />

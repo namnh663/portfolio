@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './Sidebar.css';
 
-const Sidebar = () => {
+const TestingFoundationTopics = () => {
   return (
     <div className="sidebar">
       <h3>Topics</h3>
@@ -26,4 +26,4 @@ const Sidebar = () => {
   );
 };
 
-export default Sidebar;
+export default TestingFoundationTopics;
