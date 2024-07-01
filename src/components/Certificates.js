@@ -4,6 +4,10 @@ import './Certificates.css';
 
 const certificates = [
   {
+    name: 'Time Management Certificate',
+    issuer: 'LinkedIn',
+  },
+  {
     name: 'Prompt ChatGPT Certificate',
     issuer: 'LinkedIn',
   },
@@ -20,11 +24,15 @@ const certificates = [
     issuer: 'Coursera',
   },
   {
+    name: 'Software Project Manager Certificate',
+    issuer: 'LinkedIn',
+  },
+  {
     name: 'LambdaTest Software Testing Professional Certificate',
     issuer: 'LambdaTest',
   },
   {
-    name: 'Scrum Advanced Certificate',
+    name: 'Software Testing Certificate',
     issuer: 'LinkedIn',
   }
 ];
