@@ -1,5 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css';
+
+const relatedArticles = [
+  {
+    title: 'How to Write Effective Test Cases',
+    link: '/testing-foundation/effective-test-cases'
+  }
+];
 
 const Documentation = () => {
   return (
@@ -11,6 +19,17 @@ const Documentation = () => {
         <li><strong>Test Scripts</strong>: Scripts used in automated testing.</li>
         <li><strong>Test Report</strong>: Summarizes the testing activities and results.</li>
       </ul>
+
+      <section className="related-articles">
+        <h3>Related Articles</h3>
+        <ul>
+          {relatedArticles.map((article, index) => (
+            <li key={index}>
+              <Link to={article.link}>{article.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };

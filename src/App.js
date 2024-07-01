@@ -5,6 +5,9 @@ import Experience from './pages/Experience';
 import Projects from './pages/Projects';
 import TestingFoundation from './pages/TestingFoundation';
 import StaticTesting from './pages/StaticTesting';
+import DynamicTesting from './pages/DynamicTesting';
+import UnitTesting from './components/topics/UnitTesting';
+import IntegrationTesting from './components/topics/IntegrationTesting';
 import StaticTestingTypes from './components/topics/StaticTestingTypes';
 import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
 import Resources from './pages/Resources';
@@ -26,6 +29,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
 import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
+import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import Notification from './components/Notification';
 import './App.css';
 
@@ -45,6 +49,10 @@ const App = () => {
               <Route path="type" element={<StaticTestingTypes />} />
               <Route path="benefits" element={<StaticTestingBenefits />} />
             </Route>
+            <Route path="/dynamic-testing" element={<DynamicTesting />}>
+              <Route path="unit-testing" element={<UnitTesting />} />
+              <Route path="integration-testing" element={<IntegrationTesting />} />
+            </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
               <Route path="definition" element={<Definition />} />
@@ -58,6 +66,7 @@ const App = () => {
               <Route path="design" element={<Design />} />
               <Route path="process" element={<Process />} />
               <Route path="documentation" element={<Documentation />} />
+              <Route path="effective-test-cases" element={<EffectiveTestCases />} />
               <Route path="defects" element={<Defects />} />
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />
