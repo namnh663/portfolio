@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Experience from './pages/Experience';
 import Projects from './pages/Projects';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
 import StaticTesting from './pages/StaticTesting';
 import DynamicTesting from './pages/DynamicTesting';
@@ -71,6 +73,8 @@ const App = () => {
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />
             </Route>
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogPost />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
