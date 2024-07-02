@@ -1,7 +1,7 @@
 import React from 'react';
 import './Topic.css';
 
-const StaticTesting = () => {
+const StaticTestingTypes = () => {
     return (
         <div className="topic-detail">
             <h2>Types of Static Testing</h2>
@@ -38,4 +38,4 @@ const StaticTesting = () => {
     );
 };
 
-export default StaticTesting;
+export default StaticTestingTypes;

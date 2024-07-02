@@ -80,3 +80,100 @@
 .related-articles ul li a:hover {
   color: #0056b3;
 }
+
+.quadrant-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  position: relative;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.quadrant {
+  background-color: #e9ecef;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.quadrant h3 {
+  margin-top: 0;
+  font-size: 24px;
+  color: #007bff;
+}
+
+.quadrant p {
+  font-size: 16px;
+  color: #525f7f;
+}
+
+.labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  pointer-events: none;
+}
+
+.labels span {
+  font-size: 14px;
+  color: #28a745;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.guide-development {
+  transform: rotate(-90deg);
+  transform-origin: bottom;
+  position: absolute;
+  left: -60px;
+  top: 50%;
+}
+
+.technology-facing {
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.business-facing {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.critique-product {
+  transform: rotate(90deg);
+  transform-origin: bottom;
+  position: absolute;
+  right: -60px; 
+  top: 50%;
+}
+
+@media (max-width: 768px) {
+  .quadrant-container {
+    grid-template-columns: 1fr;
+  }
+
+  .guide-development,
+  .critique-product {
+    display: none;
+  }
+
+  .business-facing {
+    top: -30px;
+  }
+
+  .technology-facing {
+    bottom: -30px;
+  }
+}

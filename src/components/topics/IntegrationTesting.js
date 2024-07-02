@@ -1,7 +1,7 @@
 import React from 'react';
 import './Topic.css';
 
-const UnitTesting = () => {
+const IntegrationTesting = () => {
     return (
         <div className="topic-detail">
             <h2>Integration Testing</h2>
@@ -24,4 +24,4 @@ const UnitTesting = () => {
     );
 };
 
-export default UnitTesting;
+export default IntegrationTesting;

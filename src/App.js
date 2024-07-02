@@ -8,6 +8,9 @@ import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
 import StaticTesting from './pages/StaticTesting';
 import DynamicTesting from './pages/DynamicTesting';
+import AgileTesting from './pages/AgileTesting';
+import QaRole from './components/topics/QaRole';
+import TestApproach from './components/topics/TestApproach';
 import UnitTesting from './components/topics/UnitTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import StaticTestingTypes from './components/topics/StaticTestingTypes';
@@ -54,6 +57,10 @@ const App = () => {
             <Route path="/dynamic-testing" element={<DynamicTesting />}>
               <Route path="unit-testing" element={<UnitTesting />} />
               <Route path="integration-testing" element={<IntegrationTesting />} />
+            </Route>
+            <Route path="/agile-testing" element={<AgileTesting />}>
+              <Route path="qa-role" element={<QaRole />} />
+              <Route path="test-approach" element={<TestApproach />} />
             </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
