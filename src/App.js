@@ -20,7 +20,6 @@ import Principles from './components/topics/Principles';
 import Definition from './components/topics/Definition';
 import Types from './components/topics/Types';
 import Levels from './components/topics/Levels';
-import Methods from './components/topics/Methods';
 import Techniques from './components/topics/Techniques';
 import Design from './components/topics/Design';
 import Process from './components/topics/Process';
@@ -35,6 +34,8 @@ import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
 import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
+import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
+import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
 import './App.css';
 
@@ -70,12 +71,13 @@ const App = () => {
               <Route path="development-approaches" element={<DevelopmentApproaches />} />
               <Route path="types" element={<Types />} />
               <Route path="levels" element={<Levels />} />
-              <Route path="methods" element={<Methods />} />
               <Route path="techniques" element={<Techniques />} />
               <Route path="design" element={<Design />} />
               <Route path="process" element={<Process />} />
               <Route path="documentation" element={<Documentation />} />
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
+              <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />
+              <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
               <Route path="defects" element={<Defects />} />
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />

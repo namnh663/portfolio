@@ -6,6 +6,10 @@ const relatedArticles = [
   {
     title: 'How to Write Effective Test Cases',
     link: '/testing-foundation/effective-test-cases'
+  },
+  {
+    title: 'Writing Test Cases Without Clear Requirements Documentation',
+    link: '/testing-foundation/writing-test-cases-without-requirements'
   }
 ];
 

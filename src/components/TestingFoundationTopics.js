@@ -13,7 +13,6 @@ const TestingFoundationTopics = () => {
         <li><NavLink to="/testing-foundation/sdlc-testing" activeClassName="active">SDLC Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/types" activeClassName="active">Types of Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/levels" activeClassName="active">Levels of Testing</NavLink></li>
-        <li><NavLink to="/testing-foundation/methods" activeClassName="active">Testing Methods</NavLink></li>
         <li><NavLink to="/testing-foundation/techniques" activeClassName="active">Testing Techniques</NavLink></li>
         <li><NavLink to="/testing-foundation/design" activeClassName="active">Test Design Techniques</NavLink></li>
         <li><NavLink to="/testing-foundation/process" activeClassName="active">Testing Process</NavLink></li>
