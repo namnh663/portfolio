@@ -8,7 +8,6 @@ const TestingFoundationTopics = () => {
       <h3>Topics</h3>
       <ul>
         <li><NavLink to="/testing-foundation/terminology" activeClassName="active">Terminology</NavLink></li>
-        <li><NavLink to="/testing-foundation/definition" activeClassName="active">Definition and Purpose</NavLink></li>
         <li><NavLink to="/testing-foundation/principles" activeClassName="active">Testing Principles</NavLink></li>
         <li><NavLink to="/testing-foundation/sdlc-testing" activeClassName="active">SDLC Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/types" activeClassName="active">Types of Testing</NavLink></li>

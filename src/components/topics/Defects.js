@@ -6,6 +6,10 @@ const relatedArticles = [
   {
     title: 'Handling Bug Disagreements',
     link: '/testing-foundation/handle-bug-disagreement'
+  },
+  {
+    title: 'What to Include in Bug Report',
+    link: '/testing-foundation/what-to-include-in-bug-report'
   }
 ];
 

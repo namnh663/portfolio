@@ -8,6 +8,12 @@ const posts = [
     title: 'Handle A Conflict Between Team Members',
     summary: 'Learn how to handle conflicts in a leadership role.',
     tag: 'leadership'
+  },
+  {
+    id: 2,
+    title: 'Managing Scope Change Requests',
+    summary: 'Learn how to manage scope change requests during a planned sprint.',
+    tag: 'project management'
   }
 ];
 

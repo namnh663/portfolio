@@ -11,13 +11,13 @@ import DynamicTesting from './pages/DynamicTesting';
 import AgileTesting from './pages/AgileTesting';
 import QaRole from './components/topics/QaRole';
 import TestApproach from './components/topics/TestApproach';
+import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import StaticTestingTypes from './components/topics/StaticTestingTypes';
 import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
 import Resources from './pages/Resources';
 import Principles from './components/topics/Principles';
-import Definition from './components/topics/Definition';
 import Types from './components/topics/Types';
 import Levels from './components/topics/Levels';
 import Techniques from './components/topics/Techniques';
@@ -35,6 +35,7 @@ import SdlcTesting from './components/topics/SdlcTesting';
 import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
+import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
 import './App.css';
@@ -62,10 +63,10 @@ const App = () => {
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="qa-role" element={<QaRole />} />
               <Route path="test-approach" element={<TestApproach />} />
+              <Route path="make-testing-process-transparent" element={<TestingProcessTransparent />} />
             </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
-              <Route path="definition" element={<Definition />} />
               <Route path="principles" element={<Principles />} />
               <Route path="sdlc-testing" element={<SdlcTesting />} />
               <Route path="development-approaches" element={<DevelopmentApproaches />} />
@@ -79,6 +80,7 @@ const App = () => {
               <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />
               <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
               <Route path="defects" element={<Defects />} />
+              <Route path="what-to-include-in-bug-report" element={<WhatToIncludeInBugReport />} />
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />
             </Route>

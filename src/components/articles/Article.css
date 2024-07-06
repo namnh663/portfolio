@@ -79,3 +79,11 @@
 .related-articles ul li a:hover {
   color: #0056b3;
 }
+
+.example-bug-report {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-style: italic;
+}
