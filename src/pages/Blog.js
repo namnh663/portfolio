@@ -14,6 +14,12 @@ const posts = [
     title: 'Managing Scope Change Requests',
     summary: 'Learn how to manage scope change requests during a planned sprint.',
     tag: 'project management'
+  },
+  {
+    id: 3,
+    title: 'Choosing the Right Testing Tool for Your Project',
+    summary: 'A comprehensive guide on selecting the right testing tool for your project.',
+    tag: 'testing'
   }
 ];
 
