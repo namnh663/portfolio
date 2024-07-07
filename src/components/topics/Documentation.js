@@ -10,6 +10,10 @@ const relatedArticles = [
   {
     title: 'Writing Test Cases Without Clear Requirements Documentation',
     link: '/testing-foundation/writing-test-cases-without-requirements'
+  },
+  {
+    title: 'Requirement Traceability Matrix (RTM)',
+    link: '/testing-foundation/requirement-traceability-matrix'
   }
 ];
 

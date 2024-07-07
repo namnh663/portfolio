@@ -26,14 +26,17 @@ const StaticTestingTypes = () => {
                 <li>Follows a defined process with documented outputs.</li>
                 <li><strong>Secondary goals</strong>: Motivate authors and improve processes.</li>
             </ul>
-            <h3>Success Factors for Reviews</h3>
-            <ul>
-                <li><strong>Clear Objectives</strong>: Defined during planning and used as exit criteria.</li>
-                <li><strong>Appropriate Review Type</strong>: Matches review goals and work product.</li>
-                <li><strong>Right People Involved</strong>: Diverse skillsets and perspectives.</li>
-                <li><strong>Valuing Testers</strong>: Contribution to review and test preparation.</li>
-                <li><strong>Defect Handling</strong>: Acknowledging, appreciating, and addressing defects effectively.</li>
-            </ul>
+
+            <section>
+                <h3>Success Factors for Reviews</h3>
+                <ul>
+                    <li><strong>Clear Objectives</strong>: Defined during planning and used as exit criteria.</li>
+                    <li><strong>Appropriate Review Type</strong>: Matches review goals and work product.</li>
+                    <li><strong>Right People Involved</strong>: Diverse skillsets and perspectives.</li>
+                    <li><strong>Valuing Testers</strong>: Contribution to review and test preparation.</li>
+                    <li><strong>Defect Handling</strong>: Acknowledging, appreciating, and addressing defects effectively.</li>
+                </ul>
+            </section>
         </div>
     );
 };

@@ -35,16 +35,19 @@ const TestApproach = () => {
           <span className="critique-product">Critique Product</span>
         </div>
       </div>
-      <h3>Example</h3>
-      <p>You're launching a new product, and you're still in the process of validating before creating a more consistent solution. This is business facing, as the product is nearing launch, and calls for testing that will both help guide development as well as critique the existing product. For this scenario, you'd invest more in the top two quadrants.
-      </p>
-      <h3>Why use the Agile Testing Quadrants?</h3>
-      <ul>
-        <li>Provides a common language for your team to think through testing approach together.</li>
-        <li>Emphasizes Whole Team approach and highlights importance of involving QA throughout the development process.</li>
-        <li>Allows you to plan testing for different levels of "done" (story done, feature done, release done) and for every step of the deployment pipeline.</li>
-      </ul>
+      <section>
+        <h3>Example</h3>
+        <p>You're launching a new product, and you're still in the process of validating before creating a more consistent solution. This is business facing, as the product is nearing launch, and calls for testing that will both help guide development as well as critique the existing product. For this scenario, you'd invest more in the top two quadrants.
+        </p>
+        <h3>Why use the Agile Testing Quadrants?</h3>
+        <ul>
+          <li>Provides a common language for your team to think through testing approach together.</li>
+          <li>Emphasizes Whole Team approach and highlights importance of involving QA throughout the development process.</li>
+          <li>Allows you to plan testing for different levels of "done" (story done, feature done, release done) and for every step of the deployment pipeline.</li>
+        </ul>
+      </section>
     </div>
+
   );
 };
 

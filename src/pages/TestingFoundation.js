@@ -10,7 +10,7 @@ const TestingFoundation = () => {
       <div className="foundation-content">
         <div className="foundation-intro">
           <h2>Testing Foundation</h2>
-          <p>This page contains information about the foundations of testing.</p>
+          <p>Testing is the process of evaluating a system or its components to determine whether it satisfies specified requirements.</p>
         </div>
         <Outlet />
       </div>

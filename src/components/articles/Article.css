@@ -1,5 +1,6 @@
 .article-detail {
   padding: 20px;
+  margin-bottom: 20px;
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -20,14 +21,17 @@
   margin-bottom: 10px;
 }
 
-.article-detail p, .article-detail ul, .article-detail ol {
+.article-detail p,
+.article-detail ul,
+.article-detail ol {
   font-size: 16px;
   color: #555;
   margin-bottom: 10px;
   line-height: 1.6;
 }
 
-.article-detail ul, .article-detail ol {
+.article-detail ul,
+.article-detail ol {
   padding-left: 20px;
 }
 
@@ -43,7 +47,7 @@
   font-size: 18px;
   font-weight: bold;
   color: #d9534f;
-  background-color: #f9ecec; 
+  background-color: #f9ecec;
   padding: 10px;
   border-left: 5px solid #d9534f;
   margin-top: 20px;
@@ -51,39 +55,34 @@
   border-radius: 4px;
 }
 
-.related-articles {
-  margin-top: 20px;
-}
-
-.related-articles h3 {
-  font-size: 20px;
-  color: #007bff;
-  margin-bottom: 10px;
-}
-
-.related-articles ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.related-articles ul li {
-  margin-bottom: 10px;
-}
-
-.related-articles ul li a {
-  color: #007bff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.related-articles ul li a:hover {
-  color: #0056b3;
-}
-
 .example-bug-report {
   background-color: #f8f9fa;
   border-left: 4px solid #007bff;
   padding: 10px 20px;
   margin-top: 20px;
+  margin-bottom: 20px;
   font-style: italic;
+}
+
+.table-container {
+  overflow-x: auto;
+  margin: 20px 0;
+}
+
+.rtm-table {
+  width: 100%;
+  min-width: 800px;
+  border-collapse: collapse;
+}
+
+.rtm-table th,
+.rtm-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.rtm-table th {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: left;
 }

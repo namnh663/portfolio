@@ -8,11 +8,15 @@ import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
 import StaticTesting from './pages/StaticTesting';
 import DynamicTesting from './pages/DynamicTesting';
+import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
 import QaRole from './components/topics/QaRole';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
+import TypesOfMobileApplications from './components/topics/TypesOfMobileApplications';
+import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
+import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import StaticTestingTypes from './components/topics/StaticTestingTypes';
 import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
@@ -36,6 +40,7 @@ import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
+import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
 import './App.css';
@@ -60,6 +65,11 @@ const App = () => {
               <Route path="unit-testing" element={<UnitTesting />} />
               <Route path="integration-testing" element={<IntegrationTesting />} />
             </Route>
+            <Route path="/mobile-testing" element={<MobileTesting />}>
+              <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
+              <Route path="types-of-mobile-testing" element={<TypesOfMobileTesting />} />
+              <Route path="challenges-in-mobile-testing" element={<ChallengesInMobileTesting />} />
+            </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="qa-role" element={<QaRole />} />
               <Route path="test-approach" element={<TestApproach />} />
@@ -76,6 +86,7 @@ const App = () => {
               <Route path="design" element={<Design />} />
               <Route path="process" element={<Process />} />
               <Route path="documentation" element={<Documentation />} />
+              <Route path="requirement-traceability-matrix" element={<RequirementTraceabilityMatrix />} />
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
               <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />
               <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
