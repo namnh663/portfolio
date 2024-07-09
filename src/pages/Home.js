@@ -1,6 +1,8 @@
 import React from 'react';
 import AboutMe from '../components/AboutMe';
 import Skills from '../components/Skills';
+import Tools from '../components/Tools';
+import Frameworks from '../components/Frameworks';
 import Certificates from '../components/Certificates';
 import Technologies from '../components/Technologies';
 import ProgrammingLanguages from '../components/ProgrammingLanguages';
@@ -15,11 +17,15 @@ const Home = () => {
       <WorkingStyle />
       <TeamManagementStyle />
       <ProgrammingLanguages />
+      <Technologies />
       <div className="section">
-        <Skills />
+        <Frameworks />
       </div>
       <div className="section">
-        <Technologies />
+        <Tools />
+      </div>
+      <div className="section">
+        <Skills />
       </div>
       <div className="section">
         <Certificates />

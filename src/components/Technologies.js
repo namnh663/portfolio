@@ -1,21 +1,33 @@
 import React from 'react';
+import { FaDocker, FaNodeJs, FaAws, FaGit, FaGitlab, FaBitbucket } from 'react-icons/fa';
+import { SiGrafana, SiAzuredevops } from 'react-icons/si';
+import './ProgrammingLanguages.css';
 
-const technologies = [
-    'React', 'Node.js', 'Docker', 'Grafana', 'K6', 'AWS', 'Amazon S3', 'Jira', 'Azure', 'Git', 'GitLab', 'Bitbucket', 'CI/CD',
-    'Xray', 'Testmo', 'Qase', 'Karate', 'TestCafe', 'Playwright', 'WebdriverIO', 'Robot'
+  const languages = [
+    { name: 'Node.js', icon: <FaNodeJs /> },
+    { name: 'Docker', icon: <FaDocker /> },
+    { name: 'Grafana', icon: <SiGrafana /> },
+    { name: 'AWS', icon: <FaAws /> },
+    { name: 'Git', icon: <FaGit /> },
+    { name: 'GitLab', icon: <FaGitlab /> },
+    { name: 'Bitbucket', icon: <FaBitbucket /> },
+    { name: 'Azure', icon: <SiAzuredevops /> }
   ];
-
-const Technologies = () => {
-  return (
-    <div className="skills-section">
-      <h2>Technologies</h2>
-      <div className="skills-container">
-        {technologies.map((technology, index) => (
-          <span key={index} className="skill-tag">{technology}</span>
-        ))}
+  
+  const Technologies = () => {
+    return (
+      <div className="programming-languages">
+        <h2>Technologies</h2>
+        <div className="language-icons">
+          {languages.map((language, index) => (
+            <div key={index} className="language-item">
+              <div className="icon">{language.icon}</div>
+              <div className="name">{language.name}</div>
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
-  );
-};
+    );
+  };
 
 export default Technologies;

@@ -4,31 +4,39 @@ import './Certificates.css';
 
 const certificates = [
   {
-    name: 'Time Management Certificate',
+    name: 'Time Management',
     issuer: 'LinkedIn',
   },
   {
-    name: 'Google Data Analytics Certificate',
+    name: 'Performance Management',
+    issuer: 'LinkedIn',
+  },
+  {
+    name: 'Communication Skills',
+    issuer: 'LinkedIn',
+  },
+  {
+    name: 'Google Data Analytics',
     issuer: 'Coursera',
   },
   {
-    name: 'Google Project Management Certificate',
+    name: 'Google Project Management',
     issuer: 'Coursera',
   },
   {
-    name: 'PMI Agile Certified Practitioner (PMI-ACP) Certificate',
+    name: 'PMI Agile Certified Practitioner (PMI-ACP)',
     issuer: 'LinkedIn & PMI',
   },
   {
-    name: 'Technical Product Management Certificate',
+    name: 'Technical Product Management',
     issuer: 'LinkedIn',
   },
   {
-    name: 'LambdaTest Software Testing Professional Certificate',
+    name: 'LambdaTest Software Testing Professional',
     issuer: 'LambdaTest',
   },
   {
-    name: 'Software Testing Certificate',
+    name: 'SQL',
     issuer: 'LinkedIn',
   }
 ];
