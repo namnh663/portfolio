@@ -8,14 +8,6 @@ const certificates = [
     issuer: 'LinkedIn',
   },
   {
-    name: 'Prompt ChatGPT Certificate',
-    issuer: 'LinkedIn',
-  },
-  {
-    name: 'Web3 Design and Security Essentials Certificate',
-    issuer: 'LinkedIn',
-  },
-  {
     name: 'Google Data Analytics Certificate',
     issuer: 'Coursera',
   },
@@ -24,7 +16,11 @@ const certificates = [
     issuer: 'Coursera',
   },
   {
-    name: 'Software Project Manager Certificate',
+    name: 'PMI Agile Certified Practitioner (PMI-ACP) Certificate',
+    issuer: 'LinkedIn & PMI',
+  },
+  {
+    name: 'Technical Product Management Certificate',
     issuer: 'LinkedIn',
   },
   {
