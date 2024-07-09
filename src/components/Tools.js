@@ -1,7 +1,9 @@
 import React from 'react';
 
 const tools = [
-    'Jira', 'Azure', 'Xray', 'TestRail', 'Testmo', 'Qase'
+    'Jira', 'Azure', 'Xray', 'TestRail', 'Testmo', 'Qase',
+    'Postman', 'Swagger', 'Bruno', 'DbGate', 'DbVisualizer',
+    'Android Studio', 'Eclipse', 'VS Code', 'Xcode'
   ];
 
 const Tools = () => {

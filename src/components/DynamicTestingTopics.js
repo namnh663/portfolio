@@ -9,6 +9,7 @@ const DynamicTestingTopics = () => {
       <ul>
         <li><NavLink to="/dynamic-testing/unit-testing" activeClassName="active">Unit Testing</NavLink></li>
         <li><NavLink to="/dynamic-testing/integration-testing" activeClassName="active">Integration Testing</NavLink></li>
+        <li><NavLink to="/dynamic-testing/system-testing" activeClassName="active">System Testing</NavLink></li>
       </ul>
     </div>
   );

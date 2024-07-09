@@ -18,6 +18,7 @@ import TypesOfMobileApplications from './components/topics/TypesOfMobileApplicat
 import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
 import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
+import SystemTesting from './components/topics/SystemTesting';
 import StaticTestingTypes from './components/topics/StaticTestingTypes';
 import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
 import Resources from './pages/Resources';
@@ -40,6 +41,8 @@ import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
+import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITesting';
+import PerformingAPITesting from './components/articles/PerformingAPITesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
@@ -64,6 +67,9 @@ const App = () => {
             <Route path="/dynamic-testing" element={<DynamicTesting />}>
               <Route path="unit-testing" element={<UnitTesting />} />
               <Route path="integration-testing" element={<IntegrationTesting />} />
+              <Route path="system-testing" element={<SystemTesting />} />
+              <Route path="fundamentals-of-api-testing" element={<FundamentalsOfAPITesting />} />
+              <Route path="performing-api-testing" element={<PerformingAPITesting />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />

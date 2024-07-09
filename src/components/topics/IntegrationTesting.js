@@ -1,5 +1,17 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css';
+
+const relatedArticles = [
+    {
+        title: 'Fundamentals of API Testing',
+        link: '/dynamic-testing/fundamentals-of-api-testing'
+    },
+    {
+        title: 'Performing API Testing',
+        link: '/dynamic-testing/performing-api-testing'
+    }
+];
 
 const IntegrationTesting = () => {
     return (
@@ -27,6 +39,16 @@ const IntegrationTesting = () => {
                 </ul>
             </section>
 
+            <section className="related-articles">
+                <h3>Related Articles</h3>
+                <ul>
+                    {relatedArticles.map((article, index) => (
+                        <li key={index}>
+                            <Link to={article.link}>{article.title}</Link>
+                        </li>
+                    ))}
+                </ul>
+            </section>
         </div>
     );
 };
