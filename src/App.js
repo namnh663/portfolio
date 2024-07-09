@@ -43,6 +43,7 @@ import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
 import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITesting';
 import PerformingAPITesting from './components/articles/PerformingAPITesting';
+import DifferencesInDesignAndBehavior from './components/articles/DifferencesInDesignAndBehavior';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
@@ -75,6 +76,7 @@ const App = () => {
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
               <Route path="types-of-mobile-testing" element={<TypesOfMobileTesting />} />
               <Route path="challenges-in-mobile-testing" element={<ChallengesInMobileTesting />} />
+              <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="qa-role" element={<QaRole />} />
