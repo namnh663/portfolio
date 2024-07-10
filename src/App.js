@@ -44,7 +44,9 @@ import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugRe
 import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITesting';
 import PerformingAPITesting from './components/articles/PerformingAPITesting';
 import DifferencesInDesignAndBehavior from './components/articles/DifferencesInDesignAndBehavior';
+import ImportantAspectsOfAPITesting from './components/articles/ImportantAspectsOfAPITesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
+import AuthenticationAndAuthorization from './components/articles/AuthenticationAndAuthorization';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
 import Notification from './components/Notification';
 import './App.css';
@@ -71,6 +73,8 @@ const App = () => {
               <Route path="system-testing" element={<SystemTesting />} />
               <Route path="fundamentals-of-api-testing" element={<FundamentalsOfAPITesting />} />
               <Route path="performing-api-testing" element={<PerformingAPITesting />} />
+              <Route path="important-aspects-of-api-testing" element={<ImportantAspectsOfAPITesting />} />
+              <Route path="authentication-and-authorization-in-api-testing" element={<AuthenticationAndAuthorization />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />

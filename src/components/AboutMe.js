@@ -6,16 +6,13 @@ const AboutMe = () => {
     <div className="about-me section">
       <h2>About Me</h2>
       <p>
-        With over six years of experience as a Senior Test Engineer in the finance, banking, and logistics industries, I have honed my skills in delivering precise, timely, and effective testing solutions. My journey through various roles has not only allowed me to meet expectations but often surpass them, earning a reputation for meticulous attention to detail and unwavering commitment to deadlines.
+        My name is Brian, and I currently live and work in Ho Chi Minh City, Vietnam. With over six years of experience as a Senior Test Engineer in the finance, banking, and logistics industries, I have honed my skills in delivering precise, timely, and effective testing solutions.
       </p>
       <p>
-        One of the aspects I enjoy most about my work is tackling challenging tasks. Each time I overcome a difficult problem, I gain invaluable lessons that enhance my professional growth. This passion for challenges drives me to continuously improve and innovate in my field.
+        One of my key strengths is my expertise in both manual and automated testing. Additionally, I have extensive experience in mobile testing, ensuring the quality of applications across both Android and iOS platforms. My proficiency in API testing and integrating automated tests into CI/CD pipelines ensures early defect detection and a stable codebase. My ability to lead teams, collaborate effectively, and solve complex problems has been recognized throughout my career.
       </p>
       <p>
-        In my career, I have had the privilege of leading talented teams, developing thorough documentation, and conducting engaging training sessions. My dedication to these areas has been recognized with accolades, including the prestigious DNA Star Award at Home Credit.
-      </p>
-      <p>
-        I have also been instrumental in building robust testing processes and actively contributing ideas in meetings. My proactive approach ensures that we are always seeking ways to incorporate automation into our workflows, optimizing the time and efficiency of our operations. One of my proudest achievements has been the successful implementation of automated testing frameworks for companies like Amanotes, ITL, and Live Payments. These projects have not only streamlined processes but also significantly enhanced the overall quality and reliability of the software.
+        Throughout my career, I have led talented teams, developed thorough documentation, and conducted engaging training sessions, earning accolades like the prestigious DNA Star Award at Home Credit. I have successfully implemented automated testing frameworks for companies like Amanotes, ITL, and Live Payments, significantly enhancing software quality and reliability.
       </p>
       <p>
         Being a responsible and proactive professional, I thrive in dynamic environments where attention to detail and effective communication are key. I am excited about the opportunity to bring my expertise, passion for quality assurance, and innovative mindset to new and exciting projects.

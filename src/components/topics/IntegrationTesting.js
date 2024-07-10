@@ -10,6 +10,14 @@ const relatedArticles = [
     {
         title: 'Performing API Testing',
         link: '/dynamic-testing/performing-api-testing'
+    },
+    {
+        title: 'Important Aspects of API Testing',
+        link: '/dynamic-testing/important-aspects-of-api-testing'
+    },
+    {
+        title: 'Verifying Authentication and Authorization in API Testing',
+        link: '/dynamic-testing/authentication-and-authorization-in-api-testing'
     }
 ];
 
