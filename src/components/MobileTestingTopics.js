@@ -9,6 +9,7 @@ const MobileTestingTopics = () => {
       <ul>
         <li><NavLink to="/mobile-testing/types-of-mobile-applications" activeClassName="active">Types of Mobile Applications</NavLink></li>
         <li><NavLink to="/mobile-testing/types-of-mobile-testing" activeClassName="active">Types of Mobile Testing</NavLink></li>
+        <li><NavLink to="/mobile-testing/end-to-end-mobile-testing" activeClassName="active">End-to-End Mobile Testing</NavLink></li>
         <li><NavLink to="/mobile-testing/challenges-in-mobile-testing" activeClassName="active">Challenges in Mobile Testing</NavLink></li>
       </ul>
     </div>

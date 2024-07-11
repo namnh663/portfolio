@@ -81,6 +81,20 @@
   box-shadow: none;
 }
 
+.navbar-toggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.navbar-toggle span {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin: 4px 0;
+  transition: all 0.3s ease;
+}
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -100,6 +114,11 @@
   .navbar-menu {
     flex-direction: column;
     width: 100%;
+    display: none;
+  }
+
+  .navbar-menu.active {
+    display: flex;
   }
 
   .navbar-item {
@@ -121,5 +140,9 @@
 
   .dropdown-menu .dropdown-item a {
     padding: 10px;
+  }
+
+  .navbar-toggle {
+    display: flex;
   }
 }

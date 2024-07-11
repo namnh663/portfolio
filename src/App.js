@@ -15,6 +15,7 @@ import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
 import TypesOfMobileApplications from './components/topics/TypesOfMobileApplications';
+import EndToEndMobileTesting from './components/topics/EndToEndMobileTesting';
 import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
 import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
@@ -79,6 +80,7 @@ const App = () => {
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
               <Route path="types-of-mobile-testing" element={<TypesOfMobileTesting />} />
+              <Route path="end-to-end-mobile-testing" element={<EndToEndMobileTesting />} />
               <Route path="challenges-in-mobile-testing" element={<ChallengesInMobileTesting />} />
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
             </Route>

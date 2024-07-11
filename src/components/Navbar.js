@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [menuActive, setMenuActive] = useState(false);
+
+  const handleToggle = () => {
+    setMenuActive(!menuActive);
+  };
+
   return (
     <nav className="navbar">
       <div className="navbar-brand">
         <Link to="/">Nam's Portfolio</Link>
       </div>
-      <ul className="navbar-menu">
+      <div className="navbar-toggle" onClick={handleToggle}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={`navbar-menu ${menuActive ? 'active' : ''}`}>
         <li className="navbar-item">
           <Link to="/">Home</Link>
         </li>
@@ -31,7 +42,7 @@ const Navbar = () => {
               <Link to="/mobile-testing">Mobile Testing</Link>
             </li>
             <li className="dropdown-item">
-            <a href="https://namnh663.notion.site/Fundamentals-of-MySQL-20c21c24460b4edda116358dd2d7bce7" target="_blank" rel="noopener noreferrer">MySQL</a>
+              <a href="https://namnh663.notion.site/Fundamentals-of-MySQL-20c21c24460b4edda116358dd2d7bce7" target="_blank" rel="noopener noreferrer">MySQL</a>
             </li>
           </ul>
         </li>

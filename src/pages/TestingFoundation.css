@@ -1,6 +1,7 @@
 /* src/pages/TestingFoundation.css */
 .foundation-page {
   display: flex;
+  flex-wrap: wrap;
   background-color: #f9f9f9;
 }
 
@@ -62,4 +63,20 @@
   font-size: 16px;
   color: #555;
   line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .foundation-page {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    margin-right: 0;
+    margin-bottom: 20px;
+    flex: 0 0 auto;
+  }
+
+  .foundation-content {
+    flex: 1 1 auto;
+  }
 }

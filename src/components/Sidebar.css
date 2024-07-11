@@ -33,3 +33,10 @@
 .sidebar ul li a:hover, .sidebar ul li a.active {
   color: #0056b3;
 }
+
+@media (max-width: 768px) {
+  .sidebar {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
