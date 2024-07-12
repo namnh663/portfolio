@@ -28,12 +28,14 @@ import Types from './components/topics/Types';
 import Levels from './components/topics/Levels';
 import Techniques from './components/topics/Techniques';
 import Design from './components/topics/Design';
-import Process from './components/topics/Process';
-import Documentation from './components/topics/Documentation';
 import Defects from './components/topics/Defects';
 import Tools from './components/topics/Tools';
 import BestPractices from './components/topics/BestPractices';
 import Terminology from './components/topics/Terminology';
+import WhatIsTesting from './components/topics/WhatIsTesting';
+import WhyTestingIsNecessary from './components/topics/WhyTestingIsNecessary';
+import EssentialSkills from './components/topics/EssentialSkills';
+import TestActivities from './components/topics/TestActivities';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
@@ -91,15 +93,17 @@ const App = () => {
             </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
               <Route path="terminology" element={<Terminology />} />
+              <Route path="what-is-testing" element={<WhatIsTesting />} />
+              <Route path="why-testing-is-necessary" element={<WhyTestingIsNecessary />} />
               <Route path="principles" element={<Principles />} />
+              <Route path="test-activities" element={<TestActivities />} />
+              <Route path="essential-skills" element={<EssentialSkills />} />
               <Route path="sdlc-testing" element={<SdlcTesting />} />
               <Route path="development-approaches" element={<DevelopmentApproaches />} />
               <Route path="types" element={<Types />} />
               <Route path="levels" element={<Levels />} />
               <Route path="techniques" element={<Techniques />} />
               <Route path="design" element={<Design />} />
-              <Route path="process" element={<Process />} />
-              <Route path="documentation" element={<Documentation />} />
               <Route path="requirement-traceability-matrix" element={<RequirementTraceabilityMatrix />} />
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
               <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />

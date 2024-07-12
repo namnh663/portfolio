@@ -9,6 +9,9 @@ const Terminology = () => {
       <section>
         <ul>
           <li><strong>Test Case</strong>: A set of conditions or variables under which a tester determines whether a system or one of its components is working as intended.</li>
+          <li><strong>Test Plan</strong>: Document outlining the objectives, scope, and focus of a testing effort.</li>
+          <li><strong>Test Scripts</strong>: Scripts used in automated testing.</li>
+          <li><strong>Test Report</strong>: Summarizes the testing activities and results.</li>
           <li><strong>Bug</strong>: An error, flaw, failure, or fault in a computer program or system that causes it to produce an incorrect or unexpected result.</li>
           <li><strong>Regression Testing</strong>: A type of software testing that ensures that previously developed and tested software still performs the same way after it is changed or interfaced with other software.</li>
           <li><strong>Integration Testing</strong>: Testing in which individual software modules are combined and tested as a group.</li>
