@@ -13,11 +13,11 @@ const TestingFoundationTopics = () => {
         <li><NavLink to="/testing-foundation/principles" activeClassName="active">Testing Principles</NavLink></li>
         <li><NavLink to="/testing-foundation/test-activities" activeClassName="active">Test Activities</NavLink></li>
         <li><NavLink to="/testing-foundation/essential-skills" activeClassName="active">Essential Skills in Testing</NavLink></li>
-        <li><NavLink to="/testing-foundation/sdlc-testing" activeClassName="active">SDLC Testing</NavLink></li>
-        <li><NavLink to="/testing-foundation/types" activeClassName="active">Types of Testing</NavLink></li>
-        <li><NavLink to="/testing-foundation/levels" activeClassName="active">Levels of Testing</NavLink></li>
-        <li><NavLink to="/testing-foundation/techniques" activeClassName="active">Testing Techniques</NavLink></li>
-        <li><NavLink to="/testing-foundation/design" activeClassName="active">Test Design Techniques</NavLink></li>
+        <li><NavLink to="/testing-foundation/testing-in-sdlc" activeClassName="active">Testing in the SDLC</NavLink></li>
+        <li><NavLink to="/testing-foundation/test-levels-and-test-types" activeClassName="active">Test Levels and Test Types</NavLink></li>
+        <li><NavLink to="/testing-foundation/maintenance-testing" activeClassName="active">Maintenance Testing</NavLink></li>
+        <li><NavLink to="/testing-foundation/static-testing" activeClassName="active">Static Testing</NavLink></li>
+        <li><NavLink to="/testing-foundation/test-techniques" activeClassName="active">Test Techniques</NavLink></li>
         <li><NavLink to="/testing-foundation/defects" activeClassName="active">Defect Lifecycle</NavLink></li>
         <li><NavLink to="/testing-foundation/tools" activeClassName="active">Tools and Technologies</NavLink></li>
         <li><NavLink to="/testing-foundation/best-practices" activeClassName="active">Best Practices</NavLink></li>

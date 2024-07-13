@@ -6,7 +6,6 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
-import StaticTesting from './pages/StaticTesting';
 import DynamicTesting from './pages/DynamicTesting';
 import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
@@ -20,14 +19,12 @@ import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
 import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import SystemTesting from './components/topics/SystemTesting';
-import StaticTestingTypes from './components/topics/StaticTestingTypes';
-import StaticTestingBenefits from './components/topics/StaticTestingBenefits';
+import TestTechniques from './components/topics/TestTechniques';
 import Resources from './pages/Resources';
-import Principles from './components/topics/Principles';
-import Types from './components/topics/Types';
-import Levels from './components/topics/Levels';
-import Techniques from './components/topics/Techniques';
-import Design from './components/topics/Design';
+import TestingPrinciples from './components/topics/TestingPrinciples';
+import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
+import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
+import StaticTesting from './components/topics/StaticTesting';
 import Defects from './components/topics/Defects';
 import Tools from './components/topics/Tools';
 import BestPractices from './components/topics/BestPractices';
@@ -40,12 +37,17 @@ import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
+import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/TestingInTheSDLC';
 import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
 import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITesting';
 import PerformingAPITesting from './components/articles/PerformingAPITesting';
+import BlackBoxTestingTechniques from './components/articles/BlackBoxTestingTechniques';
+import WhiteBoxTestingTechniques from './components/articles/WhiteBoxTestingTechniques';
+import ExperienceBasedTestTechniques from './components/articles/ExperienceBasedTestTechniques';
+import CollaborationBasedTestApproaches from './components/articles/CollaborationBasedTestApproaches';
 import DifferencesInDesignAndBehavior from './components/articles/DifferencesInDesignAndBehavior';
 import ImportantAspectsOfAPITesting from './components/articles/ImportantAspectsOfAPITesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
@@ -66,10 +68,6 @@ const App = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resources" element={<Resources />}></Route>
-            <Route path="/static-testing" element={<StaticTesting />}>
-              <Route path="type" element={<StaticTestingTypes />} />
-              <Route path="benefits" element={<StaticTestingBenefits />} />
-            </Route>
             <Route path="/dynamic-testing" element={<DynamicTesting />}>
               <Route path="unit-testing" element={<UnitTesting />} />
               <Route path="integration-testing" element={<IntegrationTesting />} />
@@ -95,16 +93,21 @@ const App = () => {
               <Route path="terminology" element={<Terminology />} />
               <Route path="what-is-testing" element={<WhatIsTesting />} />
               <Route path="why-testing-is-necessary" element={<WhyTestingIsNecessary />} />
-              <Route path="principles" element={<Principles />} />
+              <Route path="principles" element={<TestingPrinciples />} />
               <Route path="test-activities" element={<TestActivities />} />
               <Route path="essential-skills" element={<EssentialSkills />} />
               <Route path="sdlc-testing" element={<SdlcTesting />} />
+              <Route path="testing-in-sdlc" element={<TestingInTheSDLC />} />
+              <Route path="test-levels-and-test-types" element={<TestLevelsAndTestTypes />} />
+              <Route path="maintenance-testing" element={<MaintenanceTesting />} />
               <Route path="development-approaches" element={<DevelopmentApproaches />} />
-              <Route path="types" element={<Types />} />
-              <Route path="levels" element={<Levels />} />
-              <Route path="techniques" element={<Techniques />} />
-              <Route path="design" element={<Design />} />
+              <Route path="static-testing" element={<StaticTesting />} />
+              <Route path="test-techniques" element={<TestTechniques />} />
               <Route path="requirement-traceability-matrix" element={<RequirementTraceabilityMatrix />} />
+              <Route path="black-box-techniques" element={<BlackBoxTestingTechniques />} />
+              <Route path="white-box-techniques" element={<WhiteBoxTestingTechniques />} />
+              <Route path="experience-based-techniques" element={<ExperienceBasedTestTechniques />} />
+              <Route path="collaboration-based-techniques" element={<CollaborationBasedTestApproaches />} />
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
               <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />
               <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
