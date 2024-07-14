@@ -10,6 +10,7 @@ import DynamicTesting from './pages/DynamicTesting';
 import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
 import QaRole from './components/topics/QaRole';
+import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
@@ -25,7 +26,9 @@ import TestingPrinciples from './components/topics/TestingPrinciples';
 import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
 import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
 import StaticTesting from './components/topics/StaticTesting';
-import Defects from './components/topics/Defects';
+import DefectManagement from './components/topics/DefectManagement';
+import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
+import TestPlanning from './components/topics/TestPlanning';
 import Tools from './components/topics/Tools';
 import BestPractices from './components/topics/BestPractices';
 import Terminology from './components/topics/Terminology';
@@ -38,6 +41,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import SdlcTesting from './components/topics/SdlcTesting';
 import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/TestingInTheSDLC';
+import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
 import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
@@ -86,6 +90,8 @@ const App = () => {
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="qa-role" element={<QaRole />} />
+              <Route path="status-of-testing-in-agile-projects" element={<StatusOfTestingInAgileProjects />} />
+              <Route path="role-and-skills-of-tester" element={<RoleAndSkillsOfTester />} />
               <Route path="test-approach" element={<TestApproach />} />
               <Route path="make-testing-process-transparent" element={<TestingProcessTransparent />} />
             </Route>
@@ -103,6 +109,8 @@ const App = () => {
               <Route path="development-approaches" element={<DevelopmentApproaches />} />
               <Route path="static-testing" element={<StaticTesting />} />
               <Route path="test-techniques" element={<TestTechniques />} />
+              <Route path="test-planning" element={<TestPlanning />} />
+              <Route path="risk-management" element={<RiskManagement />} />
               <Route path="requirement-traceability-matrix" element={<RequirementTraceabilityMatrix />} />
               <Route path="black-box-techniques" element={<BlackBoxTestingTechniques />} />
               <Route path="white-box-techniques" element={<WhiteBoxTestingTechniques />} />
@@ -111,7 +119,7 @@ const App = () => {
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
               <Route path="writing-test-cases-without-requirements" element={<WritingTestCasesWithoutRequirements />} />
               <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
-              <Route path="defects" element={<Defects />} />
+              <Route path="defect-management" element={<DefectManagement />} />
               <Route path="what-to-include-in-bug-report" element={<WhatToIncludeInBugReport />} />
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />

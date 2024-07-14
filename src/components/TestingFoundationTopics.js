@@ -18,7 +18,9 @@ const TestingFoundationTopics = () => {
         <li><NavLink to="/testing-foundation/maintenance-testing" activeClassName="active">Maintenance Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/static-testing" activeClassName="active">Static Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/test-techniques" activeClassName="active">Test Techniques</NavLink></li>
-        <li><NavLink to="/testing-foundation/defects" activeClassName="active">Defect Lifecycle</NavLink></li>
+        <li><NavLink to="/testing-foundation/test-planning" activeClassName="active">Test Planning</NavLink></li>
+        <li><NavLink to="/testing-foundation/risk-management" activeClassName="active">Risk Management</NavLink></li>
+        <li><NavLink to="/testing-foundation/defect-management" activeClassName="active">Defect Management</NavLink></li>
         <li><NavLink to="/testing-foundation/tools" activeClassName="active">Tools and Technologies</NavLink></li>
         <li><NavLink to="/testing-foundation/best-practices" activeClassName="active">Best Practices</NavLink></li>
       </ul>
