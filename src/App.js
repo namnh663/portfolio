@@ -28,12 +28,12 @@ import TestingPrinciples from './components/topics/TestingPrinciples';
 import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
 import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
 import StaticTesting from './components/topics/StaticTesting';
+import TestTeam from './components/topics/TestTeam';
 import DefectManagement from './components/topics/DefectManagement';
 import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
 import TestPlanning from './components/topics/TestPlanning';
 import AspectsOfAgileApproaches from './components/topics/AspectsOfAgileApproaches';
-import Tools from './components/topics/Tools';
-import BestPractices from './components/topics/BestPractices';
+import TestTools from './components/topics/TestTools';
 import WhatIsTesting from './components/topics/WhatIsTesting';
 import WhyTestingIsNecessary from './components/topics/WhyTestingIsNecessary';
 import EssentialSkills from './components/topics/EssentialSkills';
@@ -97,6 +97,7 @@ const App = () => {
               <Route path="role-and-skills-of-tester" element={<RoleAndSkillsOfTester />} />
               <Route path="techniques-in-agile-projects" element={<TechniquesInAgileProjects />} />
               <Route path="test-approach" element={<TestApproach />} />
+              <Route path="the-test-team" element={<TestTeam />} />
               <Route path="make-testing-process-transparent" element={<TestingProcessTransparent />} />
             </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
@@ -123,8 +124,7 @@ const App = () => {
               <Route path="defect-management" element={<DefectManagement />} />
               <Route path="what-to-include-in-bug-report" element={<WhatToIncludeInBugReport />} />
               <Route path="test-monitoring-control-completion" element={<TestMonitoringControlCompletion />} />
-              <Route path="tools" element={<Tools />} />
-              <Route path="best-practices" element={<BestPractices />} />
+              <Route path="tools" element={<TestTools />} />
             </Route>
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogPost />} />
