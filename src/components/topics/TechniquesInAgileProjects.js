@@ -5,11 +5,11 @@ const TechniquesInAgileProjects = () => {
   return (
     <div className="topic-detail">
       <h2>Techniques in Agile Projects</h2>
-      
+      <p>Many of the test techniques and testing levels that apply to traditional projects can also be applied to Agile projects. However, for Agile projects, there are some specific considerations and variances in test techniques, terminologies, and documentation that should be considered.</p>
+
       <h3>Acceptance Criteria, Adequate Coverage, and Other Information for Testing</h3>
-      <p>
-        Agile projects start with a prioritized backlog of user stories outlining initial requirements, including both functional and non-functional aspects. The user stories serve as the test basis, supplemented by:
-      </p>
+      <p>Agile projects outline initial requirements as user stories in a prioritized backlog at the start of the project. Initial requirements are short and usually follow a predefined format. Non-functional requirements, such as usability and performance, are also important and can be specified as unique user stories or connected to other functional user stories. Non-functional requirements may follow a predefined format or standard, such as [ISO25000], or an industry specific standard.</p>
+      <p>The user stories serve as an important test basis. Other possible test bases include:</p>
       <ul>
         <li>Experience from previous projects</li>
         <li>Existing functions, features, and system quality characteristics</li>
@@ -20,7 +20,7 @@ const TechniquesInAgileProjects = () => {
         <li>Applicable standards</li>
         <li>Quality risks</li>
       </ul>
-      <p>Acceptance criteria should cover:</p>
+      <p>During each iteration, developers create code which implements the functions and features described in the user stories, with the relevant quality characteristics, and this code is verified and validated via acceptance testing. To be testable, acceptance criteria should address the following topics where relevant:</p>
       <ul>
         <li><strong>Functional behavior:</strong> Observable behavior with user actions as inputs.</li>
         <li><strong>Quality characteristics:</strong> Performance, reliability, usability, etc.</li>
@@ -48,17 +48,44 @@ const TechniquesInAgileProjects = () => {
       <p>The examples must cover all the characteristics of the user story and should not add to the story. This means that an example should not exist which describes an aspect of the user story not documented in the story itself. In addition, no two examples should describe the same characteristics of the user story.</p>
 
       <h3>Functional and Non-Functional Black Box Test Design</h3>
-      <p>
-        In Agile testing, black box test design techniques like equivalence partitioning, boundary value analysis, decision tables, and state transition testing are used to create tests based on user stories and acceptance criteria. Non-functional requirements can also be documented as user stories and tested using black box techniques.
-      </p>
+      <p>In Agile testing, many tests are created by testers concurrently with the developers' programming activities. Just as the developers are programming based on the user stories and acceptance criteria, so are the testers creating tests based on user stories and their acceptance criteria. Testers can apply traditional black box test design techniques such as equivalence partitioning, boundary value analysis, decision tables, and state transition testing to create these tests. For example, boundary value analysis could be used to select test values when a customer is limited in the number of items they may select for purchase.</p>
+      <p>In many situations, non-functional requirements can be documented as user stories. Black box test design techniques (such as boundary value analysis) can also be used to create tests for non-functional quality characteristics. The user story might contain performance or reliability requirements. For example, a given execution cannot exceed a time limit or a number of operations may fail less than a certain number of times.</p>
 
       <h3>Exploratory Testing and Agile Testing</h3>
-      <p>
-        Exploratory testing is crucial in Agile projects due to limited test analysis time and user story details. It combines test design and execution guided by a prepared test charter. Session-based test management organizes exploratory testing into uninterrupted periods, including survey and analysis sessions. Testers use heuristics to guide testing and document the process thoroughly to capture test coverage, observations, risks, and anomalies.
-      </p>
-      <p>
-        Exploratory testing results are logged and summarized into status management tools for stakeholder visibility.
-      </p>
+      <p>Exploratory testing is important in Agile projects due to the limited time available for test analysis and the limited details of the user stories. In order to achieve the best results, exploratory testing should be combined with other experience-based techniques as part of a reactive testing strategy, blended with other testing strategies such as analytical risk-based testing, analytical requirements-based testing...</p>
+      <p>In exploratory testing, test design and test execution occur at the same time, guided by a prepared test charter. A test charter provides the test conditions to cover during a time-boxed testing session. During exploratory testing, the results of the most recent tests guide the next test. The same white box and black box techniques can be used to design the tests as when performing pre-designed testing.</p>
+      <p>A test charter may include the following information:</p>
+      <ul>
+        <li><strong>Actor:</strong> Intended user of the system</li>
+        <li><strong>Purpose:</strong> The theme of the charter including what particular objective the actor wants to achieve, i.e., the test conditions</li>
+        <li><strong>Setup:</strong> What needs to be in place in order to start the test execution</li>
+        <li><strong>Priority:</strong> Relative importance of this charter, based on the priority of the associated user story or the risk level</li>
+        <li><strong>Reference:</strong> Specifications (e.g., user story), risks, or other information sources</li>
+        <li><strong>Data:</strong> Whatever data is needed to carry out the charter</li>
+        <li><strong>Activities:</strong> A list of ideas of what the actor may want to do with the system (e.g., “Log on to the system as a super user”) and what would be interesting to test (both positive and negative tests)</li>
+        <li><strong>Notes:</strong> How to evaluate the product to determine correct results (e.g., to capture what happens on the screen and compare to what is written in the user’s manual)</li>
+        <li><strong>Variations:</strong> Alternative actions and evaluations to complement the ideas described under activities</li>
+      </ul>
+      <p>To manage exploratory testing, a method called session-based test management can be used. A session is defined as an uninterrupted period of testing which could last from 60 to 120 minutes. Test sessions include the following:</p>
+      <ul>
+        <li>Survey session (to learn how it works)</li>
+        <li>Analysis session (evaluation of the functionality or characteristics)</li>
+      </ul>
+      <p>Deep coverage (corner cases, scenarios, interactions)The quality of the tests depends on the testers ability to ask relevant questions about what to test. Examples include the following:</p>
+      <ul>
+        <li>What is most important to find out about the system?</li>
+        <li>In what way may the system fail?</li>
+        <li>What happens if...? What should happen when...?</li>
+        <li>Are customer needs, requirements, and expectations fulfilled?</li>
+        <li>Is the system possible to install (and remove if necessary) in all supported upgrade paths?</li>
+      </ul>
+      <p>During test execution, the tester uses creativity, intuition, cognition, and skill to find possible problems with the product. The tester also needs to have good knowledge and understanding of the software under test, the business domain, how the software is used, and how to determine when the system fails.</p>
+      <p>A set of heuristics can be applied when testing. A heuristic can guide the tester in how to perform the testing and to evaluate the results. Examples include:</p>
+      <ul>
+        <li>Boundaries</li>
+        <li>CRUD (Create, Read, Update, Delete)</li>
+        <li>Interruptions (e.g., log off, shut down, or reboot)</li>
+      </ul>
     </div>
   );
 };

@@ -20,6 +20,12 @@ const posts = [
     title: 'Choosing the Right Testing Tool for Your Project',
     summary: 'A comprehensive guide on selecting the right testing tool for your project.',
     tag: 'testing'
+  },
+  {
+    id: 4,
+    title: 'The Project Test Strategy',
+    summary: 'Understand the essentials of creating a project test strategy.',
+    tag: 'testing'
   }
 ];
 
