@@ -7,7 +7,6 @@ const TestingFoundationTopics = () => {
     <div className="sidebar">
       <h3>Topics</h3>
       <ul>
-        <li><NavLink to="/testing-foundation/terminology" activeClassName="active">Terminology</NavLink></li>
         <li><NavLink to="/testing-foundation/what-is-testing" activeClassName="active">What is Testing</NavLink></li>
         <li><NavLink to="/testing-foundation/why-testing-is-necessary" activeClassName="active">Why Testing is Necessary</NavLink></li>
         <li><NavLink to="/testing-foundation/principles" activeClassName="active">Testing Principles</NavLink></li>
@@ -20,6 +19,7 @@ const TestingFoundationTopics = () => {
         <li><NavLink to="/testing-foundation/test-techniques" activeClassName="active">Test Techniques</NavLink></li>
         <li><NavLink to="/testing-foundation/test-planning" activeClassName="active">Test Planning</NavLink></li>
         <li><NavLink to="/testing-foundation/risk-management" activeClassName="active">Risk Management</NavLink></li>
+        <li><NavLink to="/testing-foundation/test-monitoring-control-completion" activeClassName="active">Test Monitoring</NavLink></li>
         <li><NavLink to="/testing-foundation/defect-management" activeClassName="active">Defect Management</NavLink></li>
         <li><NavLink to="/testing-foundation/tools" activeClassName="active">Tools and Technologies</NavLink></li>
         <li><NavLink to="/testing-foundation/best-practices" activeClassName="active">Best Practices</NavLink></li>

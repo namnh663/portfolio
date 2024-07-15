@@ -18,9 +18,11 @@ import TypesOfMobileApplications from './components/topics/TypesOfMobileApplicat
 import EndToEndMobileTesting from './components/topics/EndToEndMobileTesting';
 import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
 import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
+import AgileSoftwareDevelopmentFundamentals from './components/topics/AgileSoftwareDevelopmentFundamentals';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import SystemTesting from './components/topics/SystemTesting';
 import TestTechniques from './components/topics/TestTechniques';
+import TechniquesInAgileProjects from './components/topics/TechniquesInAgileProjects';
 import Resources from './pages/Resources';
 import TestingPrinciples from './components/topics/TestingPrinciples';
 import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
@@ -29,9 +31,9 @@ import StaticTesting from './components/topics/StaticTesting';
 import DefectManagement from './components/topics/DefectManagement';
 import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
 import TestPlanning from './components/topics/TestPlanning';
+import AspectsOfAgileApproaches from './components/topics/AspectsOfAgileApproaches';
 import Tools from './components/topics/Tools';
 import BestPractices from './components/topics/BestPractices';
-import Terminology from './components/topics/Terminology';
 import WhatIsTesting from './components/topics/WhatIsTesting';
 import WhyTestingIsNecessary from './components/topics/WhyTestingIsNecessary';
 import EssentialSkills from './components/topics/EssentialSkills';
@@ -39,10 +41,9 @@ import TestActivities from './components/topics/TestActivities';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import SdlcTesting from './components/topics/SdlcTesting';
 import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/TestingInTheSDLC';
+import TestMonitoringControlCompletion from './components/topics/TestMonitoringControlCompletion';
 import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
-import DevelopmentApproaches from './components/articles/DevelopmentApproaches';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
@@ -90,23 +91,23 @@ const App = () => {
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="qa-role" element={<QaRole />} />
+              <Route path="aspects-of-agile-approaches" element={<AspectsOfAgileApproaches />} />
+              <Route path="agile-software-development-fundamentals" element={<AgileSoftwareDevelopmentFundamentals />} />
               <Route path="status-of-testing-in-agile-projects" element={<StatusOfTestingInAgileProjects />} />
               <Route path="role-and-skills-of-tester" element={<RoleAndSkillsOfTester />} />
+              <Route path="techniques-in-agile-projects" element={<TechniquesInAgileProjects />} />
               <Route path="test-approach" element={<TestApproach />} />
               <Route path="make-testing-process-transparent" element={<TestingProcessTransparent />} />
             </Route>
             <Route path="/testing-foundation" element={<TestingFoundation />}>
-              <Route path="terminology" element={<Terminology />} />
               <Route path="what-is-testing" element={<WhatIsTesting />} />
               <Route path="why-testing-is-necessary" element={<WhyTestingIsNecessary />} />
               <Route path="principles" element={<TestingPrinciples />} />
               <Route path="test-activities" element={<TestActivities />} />
               <Route path="essential-skills" element={<EssentialSkills />} />
-              <Route path="sdlc-testing" element={<SdlcTesting />} />
               <Route path="testing-in-sdlc" element={<TestingInTheSDLC />} />
               <Route path="test-levels-and-test-types" element={<TestLevelsAndTestTypes />} />
               <Route path="maintenance-testing" element={<MaintenanceTesting />} />
-              <Route path="development-approaches" element={<DevelopmentApproaches />} />
               <Route path="static-testing" element={<StaticTesting />} />
               <Route path="test-techniques" element={<TestTechniques />} />
               <Route path="test-planning" element={<TestPlanning />} />
@@ -121,6 +122,7 @@ const App = () => {
               <Route path="handle-bug-disagreement" element={<HandleBugDisagreement />} />
               <Route path="defect-management" element={<DefectManagement />} />
               <Route path="what-to-include-in-bug-report" element={<WhatToIncludeInBugReport />} />
+              <Route path="test-monitoring-control-completion" element={<TestMonitoringControlCompletion />} />
               <Route path="tools" element={<Tools />} />
               <Route path="best-practices" element={<BestPractices />} />
             </Route>

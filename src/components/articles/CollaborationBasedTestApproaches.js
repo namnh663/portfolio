@@ -5,7 +5,7 @@ const CollaborationBasedTestApproaches = () => {
   return (
     <div className="article-detail">
       <h2>Collaboration-based Test Approaches</h2>
-      <h3>Focus: Defect avoidance through collaboration and communication.</h3>
+      <p>Focus: Defect avoidance through collaboration and communication.</p>
 
       <h3>Techniques:</h3>
       <p>Collaborative User Story Writing:</p>
