@@ -7,6 +7,7 @@ import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
 import DynamicTesting from './pages/DynamicTesting';
+import TestAutomation from './pages/TestAutomation';
 import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
 import RiskManagement from './components/topics/RiskManagement';
@@ -80,6 +81,9 @@ const App = () => {
               <Route path="performing-api-testing" element={<PerformingAPITesting />} />
               <Route path="important-aspects-of-api-testing" element={<ImportantAspectsOfAPITesting />} />
               <Route path="authentication-and-authorization-in-api-testing" element={<AuthenticationAndAuthorization />} />
+            </Route>
+            <Route path="/test-automation" element={<TestAutomation />}>
+              <Route path="unit-testing" element={<UnitTesting />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
