@@ -9,7 +9,6 @@ import TestingFoundation from './pages/TestingFoundation';
 import DynamicTesting from './pages/DynamicTesting';
 import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
-import QaRole from './components/topics/QaRole';
 import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
@@ -90,7 +89,6 @@ const App = () => {
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
-              <Route path="qa-role" element={<QaRole />} />
               <Route path="aspects-of-agile-approaches" element={<AspectsOfAgileApproaches />} />
               <Route path="agile-software-development-fundamentals" element={<AgileSoftwareDevelopmentFundamentals />} />
               <Route path="status-of-testing-in-agile-projects" element={<StatusOfTestingInAgileProjects />} />

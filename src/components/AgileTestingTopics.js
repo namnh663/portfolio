@@ -13,7 +13,6 @@ const AgileTestingTopics = () => {
         <li><NavLink to="/agile-testing/role-and-skills-of-tester" activeClassName="active">Role and Skills of Tester in Agile Team</NavLink></li>
         <li><NavLink to="/agile-testing/techniques-in-agile-projects" activeClassName="active">Techniques in Agile Projects</NavLink></li>
         <li><NavLink to="/agile-testing/the-test-team" activeClassName="active">The Test Team</NavLink></li>
-        <li><NavLink to="/agile-testing/qa-role" activeClassName="active">Get Aligned with QA Role</NavLink></li>
         <li><NavLink to="/agile-testing/test-approach" activeClassName="active">Adapt Test Approach</NavLink></li>
         <li><NavLink to="/agile-testing/make-testing-process-transparent" activeClassName="active">Make Testing Process Transparent</NavLink></li>
       </ul>

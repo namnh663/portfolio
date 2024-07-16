@@ -31,6 +31,7 @@ const RoleAndSkillsOfTester = () => {
       <p>The role of a tester in an Agile team extends beyond traditional testing activities. It includes generating and providing feedback on test status, progress, product quality, and process quality. Key activities include:</p>
       <ul>
         <li>Understanding, implementing, and updating the test strategy</li>
+        <li>Develop and optimize testing processes</li>
         <li>Measuring and reporting test coverage across all applicable dimensions</li>
         <li>Ensuring proper use of testing tools</li>
         <li>Configuring, using, and managing test environments and test data</li>
@@ -39,6 +40,7 @@ const RoleAndSkillsOfTester = () => {
         <li>Ensuring appropriate testing tasks are scheduled during release and iteration planning</li>
         <li>Collaborating with developers and business stakeholders to clarify requirements, focusing on testability, consistency, and completeness</li>
         <li>Proactively participating in team retrospectives, suggesting and implementing improvements</li>
+        <li>Advise on strategy for automation, testability, test data, testing within the CI/CD pipeline, etc</li>
       </ul>
       <p>Each Agile team member is responsible for product quality and participates in test-related tasks. However, Agile organizations may face specific test-related risks, such as:</p>
       <ul>

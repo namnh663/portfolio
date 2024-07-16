@@ -15,14 +15,9 @@ const EssentialSkills = () => {
         <li><strong>Technical and domain knowledge:</strong> To understand the system and user needs.</li>
       </ul>
 
-      <h3>Communication is Key</h3>
-      <p>
-        Testers often find defects, which can be perceived negatively. Good communication skills help testers deliver bad news constructively. Testers should avoid confirmation bias and focus on solutions.
-      </p>
-
       <h3>Whole Team Approach</h3>
       <p>
-        Effective teamwork is crucial for testers. In a whole-team approach (inspired by Extreme Programming), everyone contributes to quality. This approach fosters collaboration, communication, and knowledge sharing within the team. Testers work with developers, business representatives, and others to achieve quality goals.
+        Effective teamwork is crucial for testers. In a whole-team approach, everyone contributes to quality. This approach fosters collaboration, communication, and knowledge sharing within the team. Testers work with developers, business representatives, and others to achieve quality goals.
       </p>
 
       <h3>Importance of Test Independence</h3>
