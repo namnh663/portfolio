@@ -6,16 +6,19 @@ const AboutMe = () => {
     <div className="about-me section">
       <h2>About Me</h2>
       <p>
-        My name is Brian, and I currently live and work in Ho Chi Minh City, Vietnam. With over six years of experience as a Senior Test Engineer in the finance, banking, and logistics industries, I have honed my skills in delivering precise, timely, and effective testing solutions.
+        My name is Brian, and I currently live and work in Ho Chi Minh City, Vietnam. With over six years of experience as a Senior Test Engineer, I have honed my skills across the finance, banking, and logistics industries. My career has been marked by significant achievements and a consistent track record of delivering high-quality results on time.
       </p>
       <p>
-        One of my key strengths is my expertise in both manual and automated testing. Additionally, I have extensive experience in mobile testing, ensuring the quality of applications across both Android and iOS platforms. My proficiency in API testing and integrating automated tests into CI/CD pipelines ensures early defect detection and a stable codebase. My ability to lead teams, collaborate effectively, and solve complex problems has been recognized throughout my career.
+        As a responsible professional, I have been praised for my meticulous attention to detail and ability to complete tasks within deadlines. I excel in writing comprehensive documentation and conducting effective training sessions. My passion lies in tackling challenging tasks, which have provided me with invaluable lessons and professional growth.
+        I have extensive experience in building robust testing processes. I am always looking for ways to incorporate automation into workflows to optimize processing time and efficiency. At Home Credit, I was honored with the DNA Star award for my exceptional contributions.
       </p>
       <p>
-        Throughout my career, I have led talented teams, developed thorough documentation, and conducted engaging training sessions, earning accolades like the prestigious DNA Star Award at Home Credit. I have successfully implemented automated testing frameworks for companies like Amanotes, ITL, and Live Payments, significantly enhancing software quality and reliability.
+        My experience includes successfully implementing automated testing frameworks for several companies. At Amanotes and Live Payments, I focused on automating API testing. At ITL, I focused on automating end-to-end testing.
+        I am known for my ability to react quickly to changes, such as modifying or improving test cases in response to new requirements. I consistently demonstrate critical thinking and a strong commitment to product quality. Instead of relying solely on written specifications, I proactively gather information from stakeholders to clarify requirements and ensure comprehensive understanding.
       </p>
       <p>
-        Being a responsible and proactive professional, I thrive in dynamic environments where attention to detail and effective communication are key. I am excited about the opportunity to bring my expertise, passion for quality assurance, and innovative mindset to new and exciting projects.
+        In my roles, I have often led teams of up to 6 members, guiding them through complex projects and ensuring comprehensive test plans with high test case coverage. My efforts have consistently resulted in high-quality software releases with no critical issues in production.
+        I thrive in dynamic environments where effective communication is key. I am excited about the opportunity to bring my expertise, passion for quality assurance, and innovative mindset to new and exciting projects.
       </p>
     </div>
   );
