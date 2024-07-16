@@ -7,7 +7,7 @@ const TestAutomationTopics = () => {
     <div className="sidebar">
       <h3>Topics</h3>
       <ul>
-        <li><NavLink to="/test-automation/unit-testing" activeClassName="active">Unit Testing</NavLink></li>
+        <li><NavLink to="/test-automation/purpose" activeClassName="active">Purpose</NavLink></li>
       </ul>
     </div>
   );

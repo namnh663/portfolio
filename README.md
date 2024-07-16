@@ -1,3 +1,4 @@
+
 # Nam's Portfolio Documentation
 
 ## Table of Contents
@@ -26,116 +27,84 @@
 7. [Contact](#contact)
 
 ## Introduction
-The "Nam's Portfolio" is a React-based web application that showcases the skills, experience, and projects of a QA Role. The application includes various sections such as About Me, Skills, Certificates, Team Management Style, and Programming Languages & Technologies. It also features a notification system and a responsive design.
+Welcome to Nam's portfolio project. This project is a showcase of my professional experience, skills, and projects.
 
 ## Technologies Used
-This application is built using the following technologies:
-
-- **React**: A JavaScript library for building user interfaces.
-- **React Router**: A library for routing in React applications.
-- **Bootstrap**: A CSS framework for responsive design and styling.
-- **Font Awesome**: A library for scalable vector icons.
-- **EmailJS**: A service to send emails directly from the client-side.
-- **gh-pages**: A package for deploying applications to GitHub Pages.
-
-These technologies were chosen to ensure a robust, scalable, and maintainable application that provides a seamless user experience across different devices.
+- React
+- React Router
+- Bootstrap
+- Font Awesome
+- gh-pages
 
 ## Project Structure
-The project structure is organized as follows:
-
-```
-qa-test-lead-portfolio/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── AboutMe.js
-│   │   ├── AboutMe.css
-│   │   ├── Certificates.js
-│   │   ├── Certificates.css
-│   │   ├── Dashboard.js
-│   │   ├── Dashboard.css
-│   │   ├── Footer.js
-│   │   ├── Footer.css
-│   │   ├── Navbar.js
-│   │   ├── Navbar.css
-│   │   ├── Notification.js
-│   │   ├── Notification.css
-│   │   ├── ProgrammingLanguagesAndTechnologies.js
-│   │   ├── ProgrammingLanguagesAndTechnologies.css
-│   │   ├── Skills.js
-│   │   ├── Skills.css
-│   │   ├── TeamManagementStyle.js
-│   │   ├── TeamManagementStyle.css
-│   │   └── ...
-│   ├── pages/
-│   │   ├── Contact.js
-│   │   ├── Contact.css
-│   │   ├── Experience.js
-│   │   ├── Experience.css
-│   │   ├── Home.js
-│   │   ├── Knowledge.js
-│   │   ├── Knowledge.css
-│   │   ├── NotFound.js
-│   │   ├── Projects.js
-│   │   ├── Projects.css
-│   │   ├── Resources.js
-│   │   ├── Resources.css
-│   │   └── ...
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-└── README.md
-```
+- **src/**: Contains the source code
+  - **components/**: Reusable components
+    - Navbar
+    - Footer
+    - Notification
+    - Dashboard
+    - AboutMe
+    - Skills
+    - Certificates
+    - TeamManagementStyle
+    - ProgrammingLanguagesAndTechnologies
+  - **pages/**: Individual pages of the application
+    - Home
+    - Experience
+    - Projects
+    - Contact
+    - Knowledge
+    - Resources
+    - NotFound
+  - **assets/**: Static files like images and stylesheets
+  - **tests/**: Test files for the application
 
 ## Components
 
 ### Navbar
-The `Navbar` component provides the navigation bar at the top of the page.
+The `Navbar` component provides the main navigation menu.
 
 **File:** `src/components/Navbar.js`  
 **Styles:** `src/components/Navbar.css`
 
 ### Footer
-The `Footer` component provides the footer section at the bottom of the page.
+The `Footer` component provides the footer section of the application.
 
 **File:** `src/components/Footer.js`  
 **Styles:** `src/components/Footer.css`
 
 ### Notification
-The `Notification` component displays a notification banner at the top of the page.
+The `Notification` component handles the notification messages.
 
 **File:** `src/components/Notification.js`  
 **Styles:** `src/components/Notification.css`
 
 ### Dashboard
-The `Dashboard` component is the main component that includes sections like About Me, Skills, Certificates, Team Management Style, and Programming Languages & Technologies.
+The `Dashboard` component is the main component for the home page.
 
 **File:** `src/components/Dashboard.js`  
 **Styles:** `src/components/Dashboard.css`
 
 ### AboutMe
-The `AboutMe` component displays information about the QA Role.
+The `AboutMe` component displays personal information.
 
 **File:** `src/components/AboutMe.js`  
 **Styles:** `src/components/AboutMe.css`
 
 ### Skills
-The `Skills` component displays a list of skills as badges.
+The `Skills` component lists the skills.
 
 **File:** `src/components/Skills.js`  
 **Styles:** `src/components/Skills.css`
 
 ### Certificates
-The `Certificates` component displays a list of certificates in a card format.
+The `Certificates` component displays certificates.
 
 **File:** `src/components/Certificates.js`  
 **Styles:** `src/components/Certificates.css`
 
 ### TeamManagementStyle
-The `TeamManagementStyle` component describes the team management style of the QA Test Lead.
+The `TeamManagementStyle` component explains the team management style of the QA Test Lead.
 
 **File:** `src/components/TeamManagementStyle.js`  
 **Styles:** `src/components/TeamManagementStyle.css`
@@ -154,7 +123,7 @@ The `Home` page displays the main dashboard.
 **File:** `src/pages/Home.js`
 
 ### Experience
-The `Experience` page lists the professional experiences of the QA Test Lead.
+The `Experience` page lists the professional experiences of the QA Role.
 
 **File:** `src/pages/Experience.js`  
 **Styles:** `src/pages/Experience.css`

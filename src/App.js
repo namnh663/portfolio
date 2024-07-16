@@ -29,6 +29,7 @@ import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC
 import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
 import StaticTesting from './components/topics/StaticTesting';
 import TestTeam from './components/topics/TestTeam';
+import PurposeOfTestAutomation from './components/topics/PurposeOfTestAutomation';
 import DefectManagement from './components/topics/DefectManagement';
 import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
 import TestPlanning from './components/topics/TestPlanning';
@@ -83,7 +84,7 @@ const App = () => {
               <Route path="authentication-and-authorization-in-api-testing" element={<AuthenticationAndAuthorization />} />
             </Route>
             <Route path="/test-automation" element={<TestAutomation />}>
-              <Route path="unit-testing" element={<UnitTesting />} />
+              <Route path="purpose" element={<PurposeOfTestAutomation />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
