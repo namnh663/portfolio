@@ -28,15 +28,19 @@ import TestingPrinciples from './components/topics/TestingPrinciples';
 import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
 import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
 import StaticTesting from './components/topics/StaticTesting';
+import TestAutomationInSDLC from './components/topics/TestAutomationInSDLC';
 import TestTeam from './components/topics/TestTeam';
 import PurposeOfTestAutomation from './components/topics/PurposeOfTestAutomation';
 import DefectManagement from './components/topics/DefectManagement';
+import DesignConceptsInTestAutomation from './components/topics/DesignConceptsInTestAutomation';
 import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
 import TestPlanning from './components/topics/TestPlanning';
 import AspectsOfAgileApproaches from './components/topics/AspectsOfAgileApproaches';
 import TestTools from './components/topics/TestTools';
+import EvaluationProcessForTools from './components/topics/EvaluationProcessForTools';
 import WhatIsTesting from './components/topics/WhatIsTesting';
 import WhyTestingIsNecessary from './components/topics/WhyTestingIsNecessary';
+import ConfigurationForTestAutomation from './components/topics/ConfigurationForTestAutomation';
 import EssentialSkills from './components/topics/EssentialSkills';
 import TestActivities from './components/topics/TestActivities';
 import NotFound from './pages/NotFound';
@@ -85,6 +89,10 @@ const App = () => {
             </Route>
             <Route path="/test-automation" element={<TestAutomation />}>
               <Route path="purpose" element={<PurposeOfTestAutomation />} />
+              <Route path="test-automation-in-the-sdlc" element={<TestAutomationInSDLC />} />
+              <Route path="configuration-of-an-infrastructure-to-enable-test-automation" element={<ConfigurationForTestAutomation />} />
+              <Route path="evaluation-process-for-selecting-the-right-tools-and-strategies" element={<EvaluationProcessForTools />} />
+              <Route path="design-concepts-leveraged-in-test-automation" element={<DesignConceptsInTestAutomation />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />

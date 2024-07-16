@@ -178,3 +178,8 @@
     bottom: -30px;
   }
 }
+
+.responsive-image {
+  width: 100%;
+  height: auto;
+}

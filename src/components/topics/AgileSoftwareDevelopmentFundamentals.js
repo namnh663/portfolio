@@ -8,10 +8,10 @@ const AgileSoftwareDevelopmentFundamentals = () => {
 
       <h3>Agile Values (Agile Manifesto)</h3>
       <ul>
-        <li><strong>Individuals and interactions over processes and tools:</strong> Focus on effective human collaboration.</li>
-        <li><strong>Working software over comprehensive documentation:</strong> Deliver working software early and iterate based on feedback.</li>
-        <li><strong>Customer collaboration over contract negotiation:</strong> Collaborate with customers to understand their needs.</li>
-        <li><strong>Responding to change over following a plan:</strong> Embrace changes to deliver more value.</li>
+        <li><b>Individuals and interactions over processes and tools:</b> Focus on effective human collaboration.</li>
+        <li><b>Working software over comprehensive documentation:</b> Deliver working software early and iterate based on feedback.</li>
+        <li><b>Customer collaboration over contract negotiation:</b> Collaborate with customers to understand their needs.</li>
+        <li><b>Responding to change over following a plan:</b> Embrace changes to deliver more value.</li>
       </ul>
 
       <h3>Agile Principles</h3>
