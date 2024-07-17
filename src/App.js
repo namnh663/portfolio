@@ -30,6 +30,7 @@ import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/Mai
 import StaticTesting from './components/topics/StaticTesting';
 import TestAutomationInSDLC from './components/topics/TestAutomationInSDLC';
 import TestTeam from './components/topics/TestTeam';
+import QualityRisksAndEffort from './components/topics/QualityRisksAndEffort';
 import PurposeOfTestAutomation from './components/topics/PurposeOfTestAutomation';
 import DefectManagement from './components/topics/DefectManagement';
 import DesignConceptsInTestAutomation from './components/topics/DesignConceptsInTestAutomation';
@@ -108,6 +109,7 @@ const App = () => {
               <Route path="role-and-skills-of-tester" element={<RoleAndSkillsOfTester />} />
               <Route path="techniques-in-agile-projects" element={<TechniquesInAgileProjects />} />
               <Route path="test-approach" element={<TestApproach />} />
+              <Route path="assessing-quality-risks-and-estimating-test-effort" element={<QualityRisksAndEffort />} />
               <Route path="the-test-team" element={<TestTeam />} />
               <Route path="make-testing-process-transparent" element={<TestingProcessTransparent />} />
             </Route>

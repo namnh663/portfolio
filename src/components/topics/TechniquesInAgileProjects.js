@@ -32,13 +32,70 @@ const TechniquesInAgileProjects = () => {
       </ul>
       <p>Other relevant information includes system operation, interface access, tool support, and tester skills. Collaboration is essential to obtain additional information throughout iterations, determining the "definition of done" for various test levels:</p>
       <ul>
-        <li><strong>Unit Testing:</strong> 100% decision coverage, Static analysis on all code, No unresolved major defects, Automated unit tests</li>
-        <li><strong>Integration Testing:</strong> All functional requirements tested, All interfaces tested, Automated regression tests</li>
-        <li><strong>System Testing:</strong> End-to-end tests of user stories and features, Testing in production-like environments, Automated regression tests</li>
-        <li><strong>User Story:</strong> Complete and understood user stories with testable acceptance criteria, Specified and reviewed user story elements</li>
-        <li><strong>Feature:</strong> Defined and approved constituent user stories, Complete design and code without technical debt, Unit and integration tests performed</li>
-        <li><strong>Iteration:</strong> Ready and tested features, Integration of all features completed</li>
-        <li><strong>Release:</strong> Coverage of all relevant test basis elements, Acceptable defect intensity, density, and remaining defects, Acceptable risk levels and business considerations</li>
+        <li><strong>Unit Testing:</strong></li>
+        <ul>
+          <li>100% decision coverage where possible, with careful reviews of any infeasible paths</li>
+          <li>Static analysis performed on all code</li>
+          <li>No unresolved major defects</li>
+          <li>No known unacceptable technical debt remaining in the design and the code</li>
+          <li>All code, unit tests, and unit test results reviewed</li>
+          <li>All unit tests automated</li>
+          <li>Important characteristics are within agreed limits (e.g., performance)</li>
+        </ul>
+
+        <li><strong>Integration Testing:</strong></li>
+        <ul>
+          <li>All functional requirements tested, including both positive and negative tests, with the number of tests based on size, complexity, and risks</li>
+          <li>All interfaces between units tested</li>
+          <li>All quality risks covered according to the agreed extent of testing</li>
+          <li>No unresolved major defects (prioritized according to risk and importance)</li>
+          <li>All defects found are reported</li>
+          <li>All regression tests automated, where possible, with all automated tests stored in a common repository</li>
+        </ul>
+
+        <li><strong>System Testing:</strong></li>
+        <ul>
+          <li>End-to-end tests of user stories, features, and functions</li>
+          <li>All user personas covered</li>
+          <li>The most important quality characteristics of the system covered (e.g., performance, robustness, reliability)</li>
+          <li>Testing done in a production-like environment(s), including all hardware and software for all supported configurations, to the extent possible</li>
+          <li>All quality risks covered according to the agreed extent of testing</li>
+          <li>All regression tests automated, where possible, with all automated tests stored in a common repository</li>
+          <li>All defects found are reported and possibly fixed</li>
+          <li>No unresolved major defects (prioritized according to risk and importance)</li>
+        </ul>
+        <li><strong>User Story:</strong> The definition of done for user stories may be determined by the following criteria:</li>
+        <ul>
+          <li>The user stories selected for the iteration are complete, understood by the team, and have detailed, testable acceptance criteria</li>
+          <li>All the elements of the user story are specified and reviewed, including the user story acceptance tests, have been completed</li>
+          <li>Tasks necessary to implement and test the selected user stories have been identified and estimated by the team</li>
+        </ul>
+        <li><strong>Feature:</strong> The definition of done for features, which may span multiple user stories or epics, may include:</li>
+        <ul>
+          <li>All constituent user stories, with acceptance criteria, are defined and approved by the customer</li>
+          <li>The design is complete, with no known technical debt</li>
+          <li>The code is complete, with no known technical debt or unfinished refactoring</li>
+          <li>Unit tests have been performed and have achieved the defined level of coverage</li>
+          <li>Integration tests and system tests for the feature have been performed according to the defined coverage criteria</li>
+          <li>No major defects remain to be corrected</li>
+          <li>Feature documentation is complete, which may include release notes, user manuals, and on-line help functions</li>
+        </ul>
+
+        <li><strong>Iteration:</strong> The definition of done for the iteration may include the following:</li>
+        <ul>
+          <li>All features for the iteration are ready and individually tested according to the feature level criteria</li>
+          <li>Any non-critical defects that cannot be fixed within the constraints of the iteration added to the product backlog and prioritized</li>
+          <li>Integration of all features for the iteration completed and tested</li>
+          <li>Documentation written, reviewed, and approved</li>
+        </ul>
+
+        <li><strong>Release:</strong></li>
+        <ul>
+          <li>All relevant test basis elements for all contents of the release have been covered by testing. The adequacy of the coverage is determined by what is new or changed, its complexity and size, and the associated risks of failure</li>
+          <li>The defect intensity (e.g., how many defects are found per day or per transaction), the defect density (e.g., the number of defects found compared to the number of user stories, effort, and/or quality attributes), estimated number of remaining defects are within acceptable limits, the consequences of unresolved and remaining defects (e.g., the severity and priority) are understood and acceptable, the residual level of risk associated with each identified quality risk is understood and acceptable</li>
+          <li>If the pre-determined delivery date has been reached, the business considerations associated with releasing and not releasing need to be considered</li>
+          <li>The estimated lifecycle cost should be used to calculate the return on investment for the delivered system (i.e., the calculated development and maintenance cost should be considerably lower than the expected total sales of the product). The main part of the lifecycle cost often comes from maintenance after the product has been released, due to the number of defects escaping to production</li>
+        </ul>
       </ul>
 
       <h3>Applying Acceptance Test-Driven Development</h3>
