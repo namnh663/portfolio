@@ -10,7 +10,6 @@ const MobileTesting = () => {
       <div className="foundation-content">
         <div className="foundation-intro">
           <h2>Mobile Testing</h2>
-          <p>Mobile testing involves testing mobile applications on various devices to ensure their functionality, usability, and consistency. This type of testing can be complex due to the diversity of mobile devices, operating systems, and network conditions.</p>
         </div>
         <Outlet />
       </div>

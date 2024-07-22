@@ -14,10 +14,11 @@ import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
-import TypesOfMobileApplications from './components/topics/TypesOfMobileApplications';
+import TypesOfMobileApplications from './components/topics/MobileWorld/MobileAppTypes';
+import MobileAppArchitecture from './components/topics/MobileWorld/MobileAppArchitecture';
 import EndToEndMobileTesting from './components/topics/EndToEndMobileTesting';
 import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
-import ChallengesInMobileTesting from './components/topics/ChallengesInMobileTesting';
+import MobileTestingChallenges from './components/topics/MobileWorld/MobileTestingChallenges';
 import AgileSoftwareDevelopmentFundamentals from './components/topics/AgileSoftwareDevelopmentFundamentals';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import SystemTesting from './components/topics/SystemTesting';
@@ -27,6 +28,8 @@ import Resources from './pages/Resources';
 import TestingPrinciples from './components/topics/TestingPrinciples';
 import TestLevelsAndTestTypes from './components/topics/TestingThroughoutTheSDLC/TestLevelsAndTestTypes';
 import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/MaintenanceTesting';
+import MobileAnalytics from './components/topics/MobileWorld/MobileAnalytics';
+import MobileTestStrategy from './components/topics/MobileWorld/MobileTestStrategy';
 import StaticTesting from './components/topics/StaticTesting';
 import TestAutomationInSDLC from './components/topics/TestAutomationInSDLC';
 import TestTeam from './components/topics/TestTeam';
@@ -49,6 +52,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/TestingInTheSDLC';
 import TestMonitoringControlCompletion from './components/topics/TestMonitoringControlCompletion';
+import MobileDeviceTypes from './components/topics/MobileWorld/MobileDeviceTypes';
 import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
@@ -96,10 +100,14 @@ const App = () => {
               <Route path="design-concepts-leveraged-in-test-automation" element={<DesignConceptsInTestAutomation />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
+              <Route path="mobile-analytics-data-and-business-models" element={<MobileAnalytics />} />
+              <Route path="mobile-device-types" element={<MobileDeviceTypes />} />
               <Route path="types-of-mobile-applications" element={<TypesOfMobileApplications />} />
+              <Route path="mobile-application-architecture" element={<MobileAppArchitecture />} />
               <Route path="types-of-mobile-testing" element={<TypesOfMobileTesting />} />
+              <Route path="test-strategy-for-mobile-apps" element={<MobileTestStrategy />} />
               <Route path="end-to-end-mobile-testing" element={<EndToEndMobileTesting />} />
-              <Route path="challenges-in-mobile-testing" element={<ChallengesInMobileTesting />} />
+              <Route path="challenges-of-mobile-testing" element={<MobileTestingChallenges />} />
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
