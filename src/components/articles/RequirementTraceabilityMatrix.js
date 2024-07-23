@@ -42,7 +42,6 @@ const RequirementTraceabilityMatrix = () => {
               <th>Risk Level</th>
               <th>Test Case ID</th>
               <th>Test Case Description</th>
-              <th>Test Type</th>
               <th>Status</th>
               <th>Defect ID</th>
             </tr>
@@ -56,7 +55,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>Medium</td>
               <td>TC1</td>
               <td>Verify user registration with valid details</td>
-              <td>Functional</td>
               <td>Passed</td>
               <td>-</td>
             </tr>
@@ -68,7 +66,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>High</td>
               <td>TC2</td>
               <td>Verify login with valid credentials</td>
-              <td>Functional</td>
               <td>Failed</td>
               <td>BUG-123</td>
             </tr>
@@ -80,7 +77,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>Low</td>
               <td>TC3</td>
               <td>Verify adding items to the shopping cart</td>
-              <td>Functional</td>
               <td>Passed</td>
               <td>-</td>
             </tr>
@@ -92,7 +88,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>High</td>
               <td>TC4</td>
               <td>Verify the checkout process with valid details</td>
-              <td>End-to-End</td>
               <td>In Progress</td>
               <td>-</td>
             </tr>
@@ -104,7 +99,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>High</td>
               <td>TC5</td>
               <td>Verify payment processing with valid credit card</td>
-              <td>Performance</td>
               <td>Not Started</td>
               <td>-</td>
             </tr>
@@ -116,7 +110,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>Medium</td>
               <td>TC6</td>
               <td>Verify order confirmation email is sent</td>
-              <td>Functional</td>
               <td>Not Started</td>
               <td>-</td>
             </tr>
@@ -128,7 +121,6 @@ const RequirementTraceabilityMatrix = () => {
               <td>Low</td>
               <td>TC7</td>
               <td>Verify product filtering based on category</td>
-              <td>Functional</td>
               <td>In Progress</td>
               <td>-</td>
             </tr>
