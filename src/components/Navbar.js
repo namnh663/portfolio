@@ -39,6 +39,9 @@ const Navbar = () => {
               <Link to="/mobile-testing">Mobile Testing</Link>
             </li>
             <li className="dropdown-item">
+              <Link to="/performance-testing">Performance Testing</Link>
+            </li>
+            <li className="dropdown-item">
               <Link to="/test-automation">Test Automation</Link>
             </li>
             <li className="dropdown-item">

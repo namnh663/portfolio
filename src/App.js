@@ -8,12 +8,14 @@ import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
 import DynamicTesting from './pages/DynamicTesting';
 import TestAutomation from './pages/TestAutomation';
+import PerformanceTesting from './pages/PerformanceTesting';
 import MobileTesting from './pages/MobileTesting';
 import AgileTesting from './pages/AgileTesting';
 import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
+import PerformanceTestingTypes from './components/topics/PerformanceTestingTypes';
 import TypesOfMobileApplications from './components/topics/MobileWorld/MobileAppTypes';
 import MobileAppArchitecture from './components/topics/MobileWorld/MobileAppArchitecture';
 import EndToEndMobileTesting from './components/topics/EndToEndMobileTesting';
@@ -22,6 +24,7 @@ import MobileTestingChallenges from './components/topics/MobileWorld/MobileTesti
 import AgileSoftwareDevelopmentFundamentals from './components/topics/AgileSoftwareDevelopmentFundamentals';
 import IntegrationTesting from './components/topics/IntegrationTesting';
 import SystemTesting from './components/topics/SystemTesting';
+import PerformanceTestingPrinciples from './components/topics/PerformanceTestingPrinciples';
 import TestTechniques from './components/topics/TestTechniques';
 import TechniquesInAgileProjects from './components/topics/TechniquesInAgileProjects';
 import Resources from './pages/Resources';
@@ -31,6 +34,7 @@ import MaintenanceTesting from './components/topics/TestingThroughoutTheSDLC/Mai
 import MobileAnalytics from './components/topics/MobileWorld/MobileAnalytics';
 import MobileTestStrategy from './components/topics/MobileWorld/MobileTestStrategy';
 import StaticTesting from './components/topics/StaticTesting';
+import LoadGenerationConcept from './components/topics/LoadGenerationConcept';
 import TestAutomationInSDLC from './components/topics/TestAutomationInSDLC';
 import TestTeam from './components/topics/TestTeam';
 import QualityRisksAndEffort from './components/topics/QualityRisksAndEffort';
@@ -54,6 +58,7 @@ import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/Testi
 import TestMonitoringControlCompletion from './components/topics/TestMonitoringControlCompletion';
 import MobileDeviceTypes from './components/topics/MobileWorld/MobileDeviceTypes';
 import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
+import PerformanceFailureModes from './components/topics/PerformanceFailureModes';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
@@ -109,6 +114,12 @@ const App = () => {
               <Route path="end-to-end-mobile-testing" element={<EndToEndMobileTesting />} />
               <Route path="challenges-of-mobile-testing" element={<MobileTestingChallenges />} />
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
+            </Route>
+            <Route path="/performance-testing" element={<PerformanceTesting />}>
+              <Route path="performance-testing-principles" element={<PerformanceTestingPrinciples />} />
+              <Route path="performance-testing-types" element={<PerformanceTestingTypes />} />
+              <Route path="the-concept-of-load-generation" element={<LoadGenerationConcept />} />
+              <Route path="performance-efficiency-failure-modes" element={<PerformanceFailureModes />} />
             </Route>
             <Route path="/agile-testing" element={<AgileTesting />}>
               <Route path="aspects-of-agile-approaches" element={<AspectsOfAgileApproaches />} />
