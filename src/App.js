@@ -58,7 +58,10 @@ import TestingInTheSDLC from './components/topics/TestingThroughoutTheSDLC/Testi
 import TestMonitoringControlCompletion from './components/topics/TestMonitoringControlCompletion';
 import MobileDeviceTypes from './components/topics/MobileWorld/MobileDeviceTypes';
 import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
+import TestAutomationDevelopment from './components/topics/TestAutomationDevelopment';
 import PerformanceFailureModes from './components/topics/PerformanceFailureModes';
+import TestAutomationRisks from './components/topics/TestAutomationRisks';
+import TestAutomationMaintainability from './components/topics/TestAutomationMaintainability';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
@@ -103,6 +106,9 @@ const App = () => {
               <Route path="configuration-of-an-infrastructure-to-enable-test-automation" element={<ConfigurationForTestAutomation />} />
               <Route path="evaluation-process-for-selecting-the-right-tools-and-strategies" element={<EvaluationProcessForTools />} />
               <Route path="design-concepts-leveraged-in-test-automation" element={<DesignConceptsInTestAutomation />} />
+              <Route path="test-automation-development" element={<TestAutomationDevelopment />} />
+              <Route path="risks-associated-with-test-automation" element={<TestAutomationRisks />} />
+              <Route path="test-automation-solution-maintainability" element={<TestAutomationMaintainability />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="mobile-analytics-data-and-business-models" element={<MobileAnalytics />} />

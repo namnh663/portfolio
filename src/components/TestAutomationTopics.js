@@ -12,6 +12,9 @@ const TestAutomationTopics = () => {
         <li><NavLink to="/test-automation/configuration-of-an-infrastructure-to-enable-test-automation" activeClassName="active">Infrastructure configuration</NavLink></li>
         <li><NavLink to="/test-automation/evaluation-process-for-selecting-the-right-tools-and-strategies" activeClassName="active">Evaluation Process</NavLink></li>
         <li><NavLink to="/test-automation/design-concepts-leveraged-in-test-automation" activeClassName="active">Design Concepts</NavLink></li>
+        <li><NavLink to="/test-automation/test-automation-development" activeClassName="active">Test Automation Development</NavLink></li>
+        <li><NavLink to="/test-automation/risks-associated-with-test-automation" activeClassName="active">Risks Associated with Test Automation Development</NavLink></li>
+        <li><NavLink to="/test-automation/test-automation-solution-maintainability" activeClassName="active">Test Automation Solution Maintainability</NavLink></li>
       </ul>
     </div>
   );
