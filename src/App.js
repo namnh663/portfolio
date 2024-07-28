@@ -69,6 +69,7 @@ import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITes
 import PerformingAPITesting from './components/articles/PerformingAPITesting';
 import BlackBoxTestingTechniques from './components/articles/BlackBoxTestingTechniques';
 import WhiteBoxTestingTechniques from './components/articles/WhiteBoxTestingTechniques';
+import MobileAppTestingRisks from './components/articles/MobileAppTestingRisks';
 import ExperienceBasedTestTechniques from './components/articles/ExperienceBasedTestTechniques';
 import CollaborationBasedTestApproaches from './components/articles/CollaborationBasedTestApproaches';
 import DifferencesInDesignAndBehavior from './components/articles/DifferencesInDesignAndBehavior';
@@ -120,6 +121,7 @@ const App = () => {
               <Route path="end-to-end-mobile-testing" element={<EndToEndMobileTesting />} />
               <Route path="challenges-of-mobile-testing" element={<MobileTestingChallenges />} />
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
+              <Route path="risks-in-mobile-application-testing" element={<MobileAppTestingRisks />} />
             </Route>
             <Route path="/performance-testing" element={<PerformanceTesting />}>
               <Route path="performance-testing-principles" element={<PerformanceTestingPrinciples />} />

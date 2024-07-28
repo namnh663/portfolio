@@ -1,5 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../Topic.css';
+
+const relatedArticles = [
+  {
+    title: 'Risks in Mobile Application Testing',
+    link: '/mobile-testing/risks-in-mobile-application-testing'
+  }
+];
 
 const MobileTestStrategy = () => {
   return (
@@ -54,6 +62,17 @@ const MobileTestStrategy = () => {
       <p>
         By addressing these risks and incorporating the above strategies, a comprehensive test strategy can be developed to ensure the mobile application's quality and performance across a wide range of devices and conditions.
       </p>
+
+      <section className="related-articles">
+        <h3>Related Articles</h3>
+        <ul>
+          {relatedArticles.map((article, index) => (
+            <li key={index}>
+              <Link to={article.link}>{article.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };
