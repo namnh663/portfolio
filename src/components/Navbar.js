@@ -45,6 +45,9 @@ const Navbar = () => {
               <Link to="/test-automation">Test Automation</Link>
             </li>
             <li className="dropdown-item">
+              <Link to="/karate">Karate</Link>
+            </li>
+            <li className="dropdown-item">
               <a href="https://namnh663.notion.site/Fundamentals-of-MySQL-20c21c24460b4edda116358dd2d7bce7" target="_blank" rel="noopener noreferrer">MySQL</a>
             </li>
           </ul>

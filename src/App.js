@@ -10,6 +10,7 @@ import DynamicTesting from './pages/DynamicTesting';
 import TestAutomation from './pages/TestAutomation';
 import PerformanceTesting from './pages/PerformanceTesting';
 import MobileTesting from './pages/MobileTesting';
+import Karate from './pages/Karate';
 import AgileTesting from './pages/AgileTesting';
 import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
@@ -44,6 +45,7 @@ import DefectManagement from './components/topics/DefectManagement';
 import DesignConceptsInTestAutomation from './components/topics/DesignConceptsInTestAutomation';
 import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingInAgileProjects';
 import TestPlanning from './components/topics/TestPlanning';
+import KarateJson from './components/topics/Karate/KarateJson';
 import AspectsOfAgileApproaches from './components/topics/AspectsOfAgileApproaches';
 import TestTools from './components/topics/TestTools';
 import EvaluationProcessForTools from './components/topics/EvaluationProcessForTools';
@@ -62,6 +64,7 @@ import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
 import TestAutomationDevelopment from './components/topics/TestAutomationDevelopment';
 import TestAutomationDataCollection from './components/topics/TestAutomationDataCollection';
 import PerformanceFailureModes from './components/topics/PerformanceFailureModes';
+import KarateOverview from './components/topics/Karate/KarateOverview';
 import TestAutomationRisks from './components/topics/TestAutomationRisks';
 import TestAutomationMaintainability from './components/topics/TestAutomationMaintainability';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
@@ -114,6 +117,10 @@ const App = () => {
               <Route path="test-automation-solution-maintainability" element={<TestAutomationMaintainability />} />
               <Route path="integration-to-ci-cd-pipelines" element={<IntegrationToCICDPipelines />} />
               <Route path="collection-analysis-reporting-of-test-automation-data" element={<TestAutomationDataCollection />} />
+            </Route>
+            <Route path="/karate" element={<Karate />}>
+              <Route path="what-is-karate" element={<KarateOverview />} />
+              <Route path="what-is-json" element={<KarateJson />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="mobile-analytics-data-and-business-models" element={<MobileAnalytics />} />
