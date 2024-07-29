@@ -15,6 +15,8 @@ const TestAutomationTopics = () => {
         <li><NavLink to="/test-automation/test-automation-development" activeClassName="active">Test Automation Development</NavLink></li>
         <li><NavLink to="/test-automation/risks-associated-with-test-automation" activeClassName="active">Risks Associated with Test Automation Development</NavLink></li>
         <li><NavLink to="/test-automation/test-automation-solution-maintainability" activeClassName="active">Test Automation Solution Maintainability</NavLink></li>
+        <li><NavLink to="/test-automation/integration-to-ci-cd-pipelines" activeClassName="active">Integration to CI/CD Pipelines</NavLink></li>
+        <li><NavLink to="/test-automation/collection-analysis-reporting-of-test-automation-data" activeClassName="active">Reporting of Test Automation Data</NavLink></li>
       </ul>
     </div>
   );

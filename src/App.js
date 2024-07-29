@@ -15,6 +15,7 @@ import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
 import UnitTesting from './components/topics/UnitTesting';
+import IntegrationToCICDPipelines from './components/topics/IntegrationToCICDPipelines';
 import PerformanceTestingTypes from './components/topics/PerformanceTestingTypes';
 import TypesOfMobileApplications from './components/topics/MobileWorld/MobileAppTypes';
 import MobileAppArchitecture from './components/topics/MobileWorld/MobileAppArchitecture';
@@ -59,6 +60,7 @@ import TestMonitoringControlCompletion from './components/topics/TestMonitoringC
 import MobileDeviceTypes from './components/topics/MobileWorld/MobileDeviceTypes';
 import RoleAndSkillsOfTester from './components/topics/RoleAndSkillsOfTester';
 import TestAutomationDevelopment from './components/topics/TestAutomationDevelopment';
+import TestAutomationDataCollection from './components/topics/TestAutomationDataCollection';
 import PerformanceFailureModes from './components/topics/PerformanceFailureModes';
 import TestAutomationRisks from './components/topics/TestAutomationRisks';
 import TestAutomationMaintainability from './components/topics/TestAutomationMaintainability';
@@ -110,6 +112,8 @@ const App = () => {
               <Route path="test-automation-development" element={<TestAutomationDevelopment />} />
               <Route path="risks-associated-with-test-automation" element={<TestAutomationRisks />} />
               <Route path="test-automation-solution-maintainability" element={<TestAutomationMaintainability />} />
+              <Route path="integration-to-ci-cd-pipelines" element={<IntegrationToCICDPipelines />} />
+              <Route path="collection-analysis-reporting-of-test-automation-data" element={<TestAutomationDataCollection />} />
             </Route>
             <Route path="/mobile-testing" element={<MobileTesting />}>
               <Route path="mobile-analytics-data-and-business-models" element={<MobileAnalytics />} />
