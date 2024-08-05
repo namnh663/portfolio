@@ -87,14 +87,12 @@ import InstallabilityTesting from './components/articles/InstallabilityTesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import AuthenticationAndAuthorization from './components/articles/AuthenticationAndAuthorization';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
-import Notification from './components/Notification';
 import './App.css';
 
 const App = () => {
   return (
     <Router basename="/portfolio">
       <div className="app">
-        <Notification />
         <Navbar />
         <div className="content">
           <Routes>
