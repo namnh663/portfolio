@@ -70,6 +70,7 @@ import TestAutomationMaintainability from './components/topics/TestAutomationMai
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
+import DeviceCompatibilityTesting from './components/articles/DeviceCompatibilityTesting';
 import FundamentalsOfAPITesting from './components/articles/FundamentalsOfAPITesting';
 import PerformingAPITesting from './components/articles/PerformingAPITesting';
 import BlackBoxTestingTechniques from './components/articles/BlackBoxTestingTechniques';
@@ -79,6 +80,10 @@ import ExperienceBasedTestTechniques from './components/articles/ExperienceBased
 import CollaborationBasedTestApproaches from './components/articles/CollaborationBasedTestApproaches';
 import DifferencesInDesignAndBehavior from './components/articles/DifferencesInDesignAndBehavior';
 import ImportantAspectsOfAPITesting from './components/articles/ImportantAspectsOfAPITesting';
+import AppInteractionTesting from './components/articles/AppInteractionTesting';
+import StressTesting from './components/articles/StressTesting';
+import ConnectivityTesting from './components/articles/ConnectivityTesting';
+import InstallabilityTesting from './components/articles/InstallabilityTesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import AuthenticationAndAuthorization from './components/articles/AuthenticationAndAuthorization';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
@@ -133,6 +138,11 @@ const App = () => {
               <Route path="challenges-of-mobile-testing" element={<MobileTestingChallenges />} />
               <Route path="specific-differences-in-design-and-behavior-of-android-and-ios" element={<DifferencesInDesignAndBehavior />} />
               <Route path="risks-in-mobile-application-testing" element={<MobileAppTestingRisks />} />
+              <Route path="device-compatibility-testing" element={<DeviceCompatibilityTesting />} />
+              <Route path="app-interaction-testing" element={<AppInteractionTesting />} />
+              <Route path="connectivity-testing" element={<ConnectivityTesting />} />
+              <Route path="installability-testing" element={<InstallabilityTesting />} />
+              <Route path="stress-testing" element={<StressTesting />} />
             </Route>
             <Route path="/performance-testing" element={<PerformanceTesting />}>
               <Route path="performance-testing-principles" element={<PerformanceTestingPrinciples />} />

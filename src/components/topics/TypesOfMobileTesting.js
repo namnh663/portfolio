@@ -1,5 +1,29 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css';
+
+const relatedArticles = [
+  {
+    title: 'Testing for Compatibility with Device Hardware',
+    link: '/mobile-testing/device-compatibility-testing'
+  },
+  {
+    title: 'Testing for App Interactions with Device Software',
+    link: '/mobile-testing/app-interaction-testing'
+  },
+  {
+    title: 'Testing for Various Connectivity Methods',
+    link: '/mobile-testing/connectivity-testing'
+  },
+  {
+    title: 'Installability Testing',
+    link: '/mobile-testing/installability-testing'
+  },
+  {
+    title: 'Stress Testing',
+    link: '/mobile-testing/stress-testing'
+  }
+];
 
 const TypesOfMobileTesting = () => {
   return (
@@ -17,6 +41,17 @@ const TypesOfMobileTesting = () => {
         <li><strong>Low-level resource Testing:</strong> Assessing the app's usage of device resources like memory, CPU, and battery.</li>
         <li><strong>Installation Testing:</strong> Verifying that the app installs and updates correctly on various devices.</li>
       </ul>
+
+      <section className="related-articles">
+        <h3>Related Articles</h3>
+        <ul>
+          {relatedArticles.map((article, index) => (
+            <li key={index}>
+              <Link to={article.link}>{article.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </section>
     </div>
   );
 };

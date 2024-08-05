@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 import './Topic.css';
 
 const relatedArticles = [
-    {
-      title: 'How to Write Effective Test Cases',
-      link: '/testing-foundation/effective-test-cases'
-    },
-    {
-      title: 'Writing Test Cases Without Clear Requirements Documentation',
-      link: '/testing-foundation/writing-test-cases-without-requirements'
-    },
-    {
-      title: 'Requirement Traceability Matrix (RTM)',
-      link: '/testing-foundation/requirement-traceability-matrix'
-    }
-  ];
+  {
+    title: 'How to Write Effective Test Cases',
+    link: '/testing-foundation/effective-test-cases'
+  },
+  {
+    title: 'Writing Test Cases Without Clear Requirements Documentation',
+    link: '/testing-foundation/writing-test-cases-without-requirements'
+  },
+  {
+    title: 'Requirement Traceability Matrix (RTM)',
+    link: '/testing-foundation/requirement-traceability-matrix'
+  }
+];
 
 const TestActivities = () => {
   return (
