@@ -30,7 +30,7 @@ const Navbar = () => {
               <Link to="/testing-foundation">Testing Foundation</Link>
             </li>
             <li className="dropdown-item">
-              <Link to="/dynamic-testing">Dynamic Testing</Link>
+              <Link to="/testing-advanced">Testing Advanced</Link>
             </li>
             <li className="dropdown-item">
               <Link to="/agile-testing">Agile Testing</Link>

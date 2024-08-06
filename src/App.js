@@ -6,16 +6,15 @@ import Projects from './pages/Projects';
 import Blog from './pages/Blog';
 import BlogPost from './pages/BlogPost';
 import TestingFoundation from './pages/TestingFoundation';
-import DynamicTesting from './pages/DynamicTesting';
 import TestAutomation from './pages/TestAutomation';
 import PerformanceTesting from './pages/PerformanceTesting';
+import TestingAdvanced from './pages/TestingAdvanced';
 import MobileTesting from './pages/MobileTesting';
 import Karate from './pages/Karate';
 import AgileTesting from './pages/AgileTesting';
 import RiskManagement from './components/topics/RiskManagement';
 import TestApproach from './components/topics/TestApproach';
 import TestingProcessTransparent from './components/topics/TestingProcessTransparent';
-import UnitTesting from './components/topics/UnitTesting';
 import IntegrationToCICDPipelines from './components/topics/IntegrationToCICDPipelines';
 import PerformanceTestingTypes from './components/topics/PerformanceTestingTypes';
 import TypesOfMobileApplications from './components/topics/MobileWorld/MobileAppTypes';
@@ -24,8 +23,6 @@ import EndToEndMobileTesting from './components/topics/EndToEndMobileTesting';
 import TypesOfMobileTesting from './components/topics/TypesOfMobileTesting';
 import MobileTestingChallenges from './components/topics/MobileWorld/MobileTestingChallenges';
 import AgileSoftwareDevelopmentFundamentals from './components/topics/AgileSoftwareDevelopmentFundamentals';
-import IntegrationTesting from './components/topics/IntegrationTesting';
-import SystemTesting from './components/topics/SystemTesting';
 import PerformanceTestingPrinciples from './components/topics/PerformanceTestingPrinciples';
 import TestTechniques from './components/topics/TestTechniques';
 import TechniquesInAgileProjects from './components/topics/TechniquesInAgileProjects';
@@ -47,10 +44,13 @@ import StatusOfTestingInAgileProjects from './components/topics/StatusOfTestingI
 import TestPlanning from './components/topics/TestPlanning';
 import KarateJson from './components/topics/Karate/KarateJson';
 import AspectsOfAgileApproaches from './components/topics/AspectsOfAgileApproaches';
-import TestTools from './components/topics/TestTools';
+import TestTools from './components/topics/TestingAdvanced/ManagingTestActivities/TestTools';
 import EvaluationProcessForTools from './components/topics/EvaluationProcessForTools';
 import WhatIsTesting from './components/topics/WhatIsTesting';
 import WhyTestingIsNecessary from './components/topics/WhyTestingIsNecessary';
+import TestProcess from './components/topics/TestingAdvanced/ManagingTestActivities/TestProcess';
+import TestProcessImprovement from './components/topics/TestingAdvanced/ManagingTestActivities/TestProcessImprovement';
+import ProjectTestStrategy from './components/topics/TestingAdvanced/ManagingTestActivities/ProjectTestStrategy';
 import ConfigurationForTestAutomation from './components/topics/ConfigurationForTestAutomation';
 import EssentialSkills from './components/topics/EssentialSkills';
 import TestActivities from './components/topics/TestActivities';
@@ -84,6 +84,8 @@ import AppInteractionTesting from './components/articles/AppInteractionTesting';
 import StressTesting from './components/articles/StressTesting';
 import ConnectivityTesting from './components/articles/ConnectivityTesting';
 import InstallabilityTesting from './components/articles/InstallabilityTesting';
+import TestContext from './components/articles/TestContext';
+import RiskBasedTesting from './components/articles/RiskBasedTesting';
 import RequirementTraceabilityMatrix from './components/articles/RequirementTraceabilityMatrix';
 import AuthenticationAndAuthorization from './components/articles/AuthenticationAndAuthorization';
 import WritingTestCasesWithoutRequirements from './components/articles/WritingTestCasesWithoutRequirements';
@@ -100,15 +102,6 @@ const App = () => {
             <Route path="/experience" element={<Experience />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resources" element={<Resources />}></Route>
-            <Route path="/dynamic-testing" element={<DynamicTesting />}>
-              <Route path="unit-testing" element={<UnitTesting />} />
-              <Route path="integration-testing" element={<IntegrationTesting />} />
-              <Route path="system-testing" element={<SystemTesting />} />
-              <Route path="fundamentals-of-api-testing" element={<FundamentalsOfAPITesting />} />
-              <Route path="performing-api-testing" element={<PerformingAPITesting />} />
-              <Route path="important-aspects-of-api-testing" element={<ImportantAspectsOfAPITesting />} />
-              <Route path="authentication-and-authorization-in-api-testing" element={<AuthenticationAndAuthorization />} />
-            </Route>
             <Route path="/test-automation" element={<TestAutomation />}>
               <Route path="purpose" element={<PurposeOfTestAutomation />} />
               <Route path="test-automation-in-the-sdlc" element={<TestAutomationInSDLC />} />
@@ -120,6 +113,17 @@ const App = () => {
               <Route path="test-automation-solution-maintainability" element={<TestAutomationMaintainability />} />
               <Route path="integration-to-ci-cd-pipelines" element={<IntegrationToCICDPipelines />} />
               <Route path="collection-analysis-reporting-of-test-automation-data" element={<TestAutomationDataCollection />} />
+            </Route>
+            <Route path="/testing-advanced" element={<TestingAdvanced />}>
+              <Route path="test-process" element={<TestProcess />} />
+              <Route path="test-context" element={<TestContext />} />
+              <Route path="project-test-strategy" element={<ProjectTestStrategy />} />
+              <Route path="improving-the-test-process" element={<TestProcessImprovement />} />
+              <Route path="test-tools" element={<TestTools />} />
+              <Route path="fundamentals-of-api-testing" element={<FundamentalsOfAPITesting />} />
+              <Route path="performing-api-testing" element={<PerformingAPITesting />} />
+              <Route path="important-aspects-of-api-testing" element={<ImportantAspectsOfAPITesting />} />
+              <Route path="authentication-and-authorization-in-api-testing" element={<AuthenticationAndAuthorization />} />
             </Route>
             <Route path="/karate" element={<Karate />}>
               <Route path="what-is-karate" element={<KarateOverview />} />
@@ -175,6 +179,7 @@ const App = () => {
               <Route path="requirement-traceability-matrix" element={<RequirementTraceabilityMatrix />} />
               <Route path="black-box-techniques" element={<BlackBoxTestingTechniques />} />
               <Route path="white-box-techniques" element={<WhiteBoxTestingTechniques />} />
+              <Route path="risk-based-techniques" element={<RiskBasedTesting />} />
               <Route path="experience-based-techniques" element={<ExperienceBasedTestTechniques />} />
               <Route path="collaboration-based-techniques" element={<CollaborationBasedTestApproaches />} />
               <Route path="effective-test-cases" element={<EffectiveTestCases />} />
@@ -183,7 +188,6 @@ const App = () => {
               <Route path="defect-management" element={<DefectManagement />} />
               <Route path="what-to-include-in-bug-report" element={<WhatToIncludeInBugReport />} />
               <Route path="test-monitoring-control-completion" element={<TestMonitoringControlCompletion />} />
-              <Route path="tools" element={<TestTools />} />
             </Route>
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:id" element={<BlogPost />} />

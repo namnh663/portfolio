@@ -21,7 +21,6 @@ const TestingFoundationTopics = () => {
         <li><NavLink to="/testing-foundation/risk-management" activeClassName="active">Risk Management</NavLink></li>
         <li><NavLink to="/testing-foundation/test-monitoring-control-completion" activeClassName="active">Test Monitoring</NavLink></li>
         <li><NavLink to="/testing-foundation/defect-management" activeClassName="active">Defect Management</NavLink></li>
-        <li><NavLink to="/testing-foundation/tools" activeClassName="active">Test Tools</NavLink></li>
       </ul>
     </div>
   );

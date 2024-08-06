@@ -18,6 +18,10 @@ const relatedArticles = [
     {
         title: 'Collaboration-Based Test Approaches',
         link: '/testing-foundation/collaboration-based-techniques'
+    },
+    {
+        title: 'Risk-Based Testing',
+        link: '/testing-foundation/risk-based-techniques'
     }
 ];
 
