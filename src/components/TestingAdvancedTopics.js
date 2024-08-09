@@ -11,6 +11,7 @@ const TestingAdvancedTopics = () => {
         <li><NavLink to="/testing-advanced/project-test-strategy" activeClassName="active">Project Test Strategy</NavLink></li>
         <li><NavLink to="/testing-advanced/improving-the-test-process" activeClassName="active">Improving the Test Process</NavLink></li>
         <li><NavLink to="/testing-advanced/test-tools" activeClassName="active">Test Tools</NavLink></li>
+        <li><NavLink to="/testing-advanced/test-metrics" activeClassName="active">Test Metrics</NavLink></li>
       </ul>
     </div>
   );

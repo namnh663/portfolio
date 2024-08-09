@@ -67,6 +67,7 @@ import PerformanceFailureModes from './components/topics/PerformanceFailureModes
 import KarateOverview from './components/topics/Karate/KarateOverview';
 import TestAutomationRisks from './components/topics/TestAutomationRisks';
 import TestAutomationMaintainability from './components/topics/TestAutomationMaintainability';
+import TestMetrics from './components/topics/TestingAdvanced/ManagingTestActivities/TestMetrics';
 import EffectiveTestCases from './components/articles/EffectiveTestCases';
 import HandleBugDisagreement from './components/articles/HandleBugDisagreement';
 import WhatToIncludeInBugReport from './components/articles/WhatToIncludeInBugReport';
@@ -120,6 +121,7 @@ const App = () => {
               <Route path="project-test-strategy" element={<ProjectTestStrategy />} />
               <Route path="improving-the-test-process" element={<TestProcessImprovement />} />
               <Route path="test-tools" element={<TestTools />} />
+              <Route path="test-metrics" element={<TestMetrics />} />
               <Route path="fundamentals-of-api-testing" element={<FundamentalsOfAPITesting />} />
               <Route path="performing-api-testing" element={<PerformingAPITesting />} />
               <Route path="important-aspects-of-api-testing" element={<ImportantAspectsOfAPITesting />} />

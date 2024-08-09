@@ -9,19 +9,19 @@ const relatedArticles = [
   },
   {
     title: 'Fundamentals of API Testing',
-    link: '/dynamic-testing/fundamentals-of-api-testing'
+    link: '/testing-advanced/fundamentals-of-api-testing'
   },
   {
     title: 'Performing API Testing',
-    link: '/dynamic-testing/performing-api-testing'
+    link: '/testing-advanced/performing-api-testing'
   },
   {
     title: 'Important Aspects of API Testing',
-    link: '/dynamic-testing/important-aspects-of-api-testing'
+    link: '/testing-advanced/important-aspects-of-api-testing'
   },
   {
     title: 'Verifying Authentication and Authorization in API Testing',
-    link: '/dynamic-testing/authentication-and-authorization-in-api-testing'
+    link: '/testing-advanced/authentication-and-authorization-in-api-testing'
   }
 ];
 
