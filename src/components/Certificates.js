@@ -36,8 +36,8 @@ const certificates = [
     issuer: 'LambdaTest',
   },
   {
-    name: 'SQL',
-    issuer: 'LinkedIn',
+    name: 'Scrum Master',
+    issuer: 'Scrum Alliance',
   }
 ];
 
