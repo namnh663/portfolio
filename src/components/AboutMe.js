@@ -16,10 +16,6 @@ const AboutMe = () => {
         My experience includes successfully implementing automated testing frameworks for several companies. At Amanotes and Live Payments, I focused on automating API testing. At ITL, I focused on automating end-to-end testing.
         I am known for my ability to react quickly to changes. I consistently demonstrate critical thinking and a strong commitment to product quality.
       </p>
-      <p>
-        In my roles, I have often led teams of up to 6 members, guiding them through complex projects and ensuring comprehensive test plans with high test case coverage. My efforts have consistently resulted in high-quality software releases with no critical issues in production.
-        I thrive in dynamic environments where effective communication is key. I am excited about the opportunity to bring my expertise, passion for quality assurance, and innovative mindset to new and exciting projects.
-      </p>
     </div>
   );
 }
